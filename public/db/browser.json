@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Indian Polity",
+    "file": "12 files",
+    "iconBgColor": "bg-[#E0F2FE]"
+  },
+  {
+    "id": 2,
+    "title": "Modern History",
+    "file": "10 files",
+    "iconBgColor": "bg-[#F3E8FF]"
+  },
+  {
+    "id": 3,
+    "title": "Geography",
+    "file": "8 files",
+    "iconBgColor": "bg-[#DCFCE7]"
+  },
+  {
+    "id": 4,
+    "title": "Economy",
+    "file": "9 files",
+    "iconBgColor": "bg-[#FFEDD5]"
+  },
+  {
+    "id": 5,
+    "title": "Science & Tech",
+    "file": "6 files",
+    "iconBgColor": "bg-[#FFE4E6]"
+  },
+  {
+    "id": 6,
+    "title": "Current Affairs",
+    "file": "15 files",
+    "iconBgColor": "bg-[#FCE7F3]"
+  }
+]

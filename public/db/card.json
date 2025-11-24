@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "img": "/img/icon.png",
+    "percent": "+12%",
+    "value": "42.5",
+    "title": "Study Hours"
+  },
+  {
+    "id": 2,
+    "img": "/img/icon1.png",
+    "percent": "+3",
+    "value": "23",
+    "title": "Tests Attempted"
+  },
+  {
+    "id": 3,
+    "img": "/img/icon2.png",
+    "percent": "+5%",
+    "value": "68%",
+    "title": "Avg. Score"
+  }
+]

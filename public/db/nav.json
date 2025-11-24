@@ -1,0 +1,40 @@
+{
+  "navigation": [
+    {
+      "icon": "ri-speed-up-line",
+      "route": "/",
+      "label": "Dashboard"
+    },
+    {
+      "icon": "ri-psychotherapy-line",
+      "route": "/study-material",
+      "label": "Study Material"
+    },
+    {
+      "icon": "ri-group-line",
+      "route": "/all-users",
+      "label": "Test Series"
+    },
+    {
+      "icon": "ri-contract-line",
+      "route": "/consultation-history",
+      "label": "Analytics"
+    },
+       {
+      "icon": "ri-currency-line",
+      "route": "/settlement",
+      "label": "Profile"
+    },
+    {
+      "icon": "ri-contract-line",
+      "route": "/analytics-reports",
+      "label": "Help & Support"
+    },
+    {
+      "icon": "ri-contract-line",
+      "route": "/analytics-reports",
+      "label": "Store"
+    }
+  ]
+ 
+}

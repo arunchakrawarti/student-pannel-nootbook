@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* @import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -24,3 +24,41 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+ */
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-light: #ffffff;
+  --color-primary: #488C86;
+  --color-hcolor:#2D5356;
+  --color-secondary: #4d525f;
+  --color-tertiary: #F1F4F9;
+}
+
+@layer utilities {
+  .container-bg {
+    @apply rounded-xl bg-white shadow;
+  }
+
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.font-inter {
+  font-family: var(--font-inter);
+}
+
+
+
+
+  .scrollbar-hidden {
+    scrollbar-width: none;     
+    -ms-overflow-style: none; 
+  }
+
