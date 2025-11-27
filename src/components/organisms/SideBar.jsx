@@ -69,12 +69,12 @@ const SideBar = ({ isSidebarOpen, setIsSidebarOpen }) => {
                 );
               })}
 
-              <DashboardLink
+              {/* <DashboardLink
                 route="#"
                 label="Log out"
                 heroIcon="ri-logout-circle-line"
                 handleClick={confirmLogout}
-              />
+              /> */}
             </div>
           </ul>
         </nav>

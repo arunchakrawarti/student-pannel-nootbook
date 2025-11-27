@@ -2,6 +2,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
 import { FiEdit } from "react-icons/fi";
 import React from "react";
+import Link from "next/link";
 
 const Profile = () => {
   return (
@@ -68,16 +69,18 @@ const Profile = () => {
             </div>
           </div>
 
-          <button
-            className="
+          <Link href="/edit-profile">
+            <button
+              className="
               flex items-center justify-center gap-2
               px-3 py-2 rounded-md
               text-white bg-[#FF6029]
               font-inter text-[14px] w-full md:w-auto
             "
-          >
-            <FiEdit size={16} /> Edit Profile
-          </button>
+            >
+              <FiEdit size={16} /> Edit Profile
+            </button>
+          </Link>
         </div>
       </div>
     </div>

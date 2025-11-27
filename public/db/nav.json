@@ -11,7 +11,7 @@
       "label": "Study Material"
     },
     {
-      "icon": "ri-group-line",
+      "icon": "ri-currency-line",
       "route": "/test-series",
       "label": "Test Series"
     },
@@ -20,8 +20,8 @@
       "route": "/analytics",
       "label": "Analytics"
     },
-       {
-      "icon": "ri-currency-line",
+    {
+      "icon": "ri-group-line",
       "route": "/profile",
       "label": "Profile"
     },

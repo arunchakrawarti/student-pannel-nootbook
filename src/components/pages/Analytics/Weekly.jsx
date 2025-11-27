@@ -35,17 +35,17 @@ const Weekly = () => {
   return (
     <div
       className="
-        flex flex-col lg:flex-row 
+        flex flex-col mt-5 lg:flex-row 
         gap-5 w-full
       "
     >
-      {/* WEEKLY BAR CHART */}
+     
       <div className="w-full bg-white rounded-xl shadow-sm p-5">
         <h2 className="font-inter font-medium text-[18px] text-gray-900">
           Weekly Study Time
         </h2>
 
-        {/* Responsive Height for all devices */}
+        
         <div className="mt-4 h-[200px] sm:h-[250px] md:h-[280px] lg:h-[300px]">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={data}>
@@ -67,13 +67,12 @@ const Weekly = () => {
         </div>
       </div>
 
-      {/* PERFORMANCE TREND LINE CHART */}
+     
       <div className="w-full bg-white rounded-xl shadow-sm p-5">
         <h2 className="font-inter font-medium text-[18px] text-gray-900">
           Performance Trend
         </h2>
 
-        {/* Responsive Height */}
         <div className="mt-4 h-[200px] sm:h-[250px] md:h-[280px] lg:h-[300px]">
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={data1}>

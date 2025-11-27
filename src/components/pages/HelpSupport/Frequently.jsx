@@ -4,12 +4,14 @@ import faqdata from "../../../../public/db/faqdata.json";
 
 const Frequently = () => {
   return (
-    <div className="p-6 bg-white shadow-lg rounded-xl max-w-2xl mx-auto">
-      <h2 className="text-2xl font-bold mb-6 text-gray-800">
-        Frequently Asked Questions
-      </h2>
+    <div className=" bg-white shadow-lg rounded-xl border border-gray-300 p-4 mt-5 ">
+      <h1 class="font-inter font-normal text-[16px] leading-[16px] tracking-[-0.31px]">
+ Frequently Asked Questions
+</h1>
 
-      {faqdata.map((faq, index) => (
+
+      <div className="mt-5">
+        {faqdata.map((faq, index) => (
         <FreqCard
           key={index}
           item={faq.item}
@@ -17,6 +19,7 @@ const Frequently = () => {
           answer={faq.answer}
         />
       ))}
+      </div>
     </div>
   );
 };

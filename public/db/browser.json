@@ -3,36 +3,42 @@
     "id": 1,
     "title": "Indian Polity",
     "file": "12 files",
-    "iconBgColor": "bg-[#E0F2FE]"
+    "iconBgColor": "bg-[#E0F2FE]",
+    "iconColor": "text-[#0284C7]"
   },
   {
     "id": 2,
     "title": "Modern History",
     "file": "10 files",
-    "iconBgColor": "bg-[#F3E8FF]"
+    "iconBgColor": "bg-[#F3E8FF]",
+    "iconColor": "text-[#9333EA]"
   },
   {
     "id": 3,
     "title": "Geography",
     "file": "8 files",
-    "iconBgColor": "bg-[#DCFCE7]"
+    "iconBgColor": "bg-[#DCFCE7]",
+    "iconColor": "text-[#16A34A]"
   },
   {
     "id": 4,
     "title": "Economy",
     "file": "9 files",
-    "iconBgColor": "bg-[#FFEDD5]"
+    "iconBgColor": "bg-[#FFEDD5]",
+    "iconColor": "text-[#EA580C]"
   },
   {
     "id": 5,
     "title": "Science & Tech",
     "file": "6 files",
-    "iconBgColor": "bg-[#FFE4E6]"
+    "iconBgColor": "bg-[#FFE4E6]",
+    "iconColor": "text-[#E11D48]"
   },
   {
     "id": 6,
     "title": "Current Affairs",
     "file": "15 files",
-    "iconBgColor": "bg-[#FCE7F3]"
+    "iconBgColor": "bg-[#FCE7F3]",
+    "iconColor": "text-[#DB2777]"
   }
 ]

@@ -47,13 +47,12 @@ export default function MainLayout({ children, pageTitle }) {
   return (
     <div className="flex h-screen relative">
 
-      {/* 🔥 Mobile Menu Button (Header hata diya) */}
       {!isSidebarOpen && (
         <button
           onClick={() => setIsSidebarOpen(true)}
           className="md:hidden fixed top-1 left-4 z-30 bg-white p-2 rounded shadow"
         >
-          {/* Hamburger Icon */}
+         
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6 text-gray-700"
@@ -77,7 +76,7 @@ export default function MainLayout({ children, pageTitle }) {
         setIsSidebarOpen={setIsSidebarOpen}
       />
 
-      {/* Backdrop when sidebar open */}
+      
       {isSidebarOpen && (
         <div
           className="fixed inset-0 z-20 bg-black opacity-50 md:hidden"
@@ -85,7 +84,7 @@ export default function MainLayout({ children, pageTitle }) {
         ></div>
       )}
 
-      {/* Main Content */}
+     
       <div className="flex flex-1 flex-col">
         <main className="max-w-[100vw] flex-1 overflow-y-auto py-8 md:px-10 px-6">
           {children}

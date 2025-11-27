@@ -1,5 +1,4 @@
 "use client";
-
 import { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -8,7 +7,6 @@ const Header = ({ isSidebarOpen, setIsSidebarOpen, pageTitle }) => {
 
   return (
     <header className="sticky top-0 z-10 flex items-center justify-between bg-white px-5 py-4 shadow-sm md:px-8">
-      {/* Left: Sidebar toggle + Page title */}
       <div className="flex items-center gap-4">
         <button
           onClick={() => setIsSidebarOpen(!isSidebarOpen)}
@@ -37,9 +35,9 @@ const Header = ({ isSidebarOpen, setIsSidebarOpen, pageTitle }) => {
         </Link>
       </div>
 
-      {/* Right: Notification + Profile */}
+     
       <div className="flex items-center gap-6">
-        {/* Notification Icon */}
+        
         <Link href="/notification" className="relative">
           <i className="ri-notification-3-fill ri-lg text-primary text-xl" />
           <span className="absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-[0.75rem] text-white">
@@ -47,7 +45,7 @@ const Header = ({ isSidebarOpen, setIsSidebarOpen, pageTitle }) => {
           </span>
         </Link>
 
-        {/* Profile Picture */}
+       
         <Link href="/Userprofile" className="block">
           <div className="relative h-10 w-10">
             <Image

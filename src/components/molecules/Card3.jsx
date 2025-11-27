@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { IoMdDownload } from "react-icons/io";
+import { MdOutlineFileDownload } from "react-icons/md";
 
 const Card3 = ({ color, img, title, month, buttonType = "view" }) => {
   return (
@@ -34,7 +34,9 @@ const Card3 = ({ color, img, title, month, buttonType = "view" }) => {
         )}
         {buttonType === "download" && (
           <button className="flex items-center gap-1 text-[12px] font-medium text-[#1E293B]">
-            <IoMdDownload className="text-[18px]" />
+            <MdOutlineFileDownload 
+            className="text-[18px]"
+            />
           </button>
         )}
       </div>
