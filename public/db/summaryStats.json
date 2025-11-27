@@ -1,0 +1,26 @@
+{
+  "summaryStats": [
+    {
+      "count": 1,
+      "label": "Answered",
+      "color": "green"
+    },
+    {
+      "count": 4,
+      "label": "Not Answered",
+      "color": "default"
+    },
+    {
+      "count": 0,
+      "label": "Flagged",
+      "color": "yellow"
+    }
+  ],
+  "questionNumbers": [
+    { "number": 1, "isCurrent": true },
+    { "number": 2, "isCurrent": false },
+    { "number": 3, "isCurrent": false },
+    { "number": 4, "isCurrent": false },
+    { "number": 5, "isCurrent": false }
+  ]
+}

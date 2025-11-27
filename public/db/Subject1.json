@@ -1,0 +1,32 @@
+[
+  {
+    "subject": "Polity",
+    "correct": "85%",
+    "small": 5,
+    "progress": 70
+  },
+  {
+    "subject": "History",
+    "correct": "78%",
+    "small": 0,
+    "progress": 65
+  },
+  {
+    "subject": "Geography",
+    "correct": "80%",
+    "small": 0,
+    "progress": 72
+  },
+  {
+    "subject": "Economy",
+    "correct": "62%",
+    "small": 0,
+    "progress": 55
+  },
+  {
+    "subject": "Science & Tech",
+    "correct": "70%",
+    "small": 5,
+    "progress": 60
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "color": "bg-[#00C950]", 
+    "title": "Completed Prelims Mock 14",
+    "month": "2 hours ago"
+  },
+  {
+    "id": 2,
+    "color": "bg-[#2B7EEE]", 
+    "title": "Watched Economy Lecture 5",
+    "month": "5 hours ago"
+  },
+  {
+    "id": 3,
+    "color": "bg-[#AD46FF]", 
+    "title": "Downloaded Polity Notes",
+    "month": "1 hours ago"
+  },
+  {
+    "id": 3,
+    "color": "bg-[#FF6900]", 
+    "title": "Attended Live Class",
+    "month": "2 hours ago"
+  }
+]

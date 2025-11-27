@@ -1,0 +1,22 @@
+[
+  {
+    "alphabet": "A",
+    "title": "Dr. Rajendra Prasad",
+    "status": "selected"
+  },
+  {
+    "alphabet": "B",
+    "title": "Dr. S. Radhakrishnan",
+    "status": "default"
+  },
+  {
+    "alphabet": "C",
+    "title": "Dr. Zakir Hussain",
+    "status": "default"
+  },
+  {
+    "alphabet": "D",
+    "title": "V. V. Giri",
+    "status": "default"
+  }
+];

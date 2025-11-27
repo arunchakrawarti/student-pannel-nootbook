@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Full Name",
+    "type": "text",
+    "placeholder": "Rahul Sharma"
+  },
+  {
+    "label": "Email Address",
+    "type": "email",
+    "placeholder": "rahul.sharma@email.com"
+  },
+  {
+    "label": "Phone Number",
+    "type": "text",
+    "placeholder": "+91 98765 43210"
+  },
+  {
+    "label": "Date of Birth",
+    "type": "date",
+    "placeholder": ""
+  },
+  {
+    "label": "City",
+    "type": "text",
+    "placeholder": "New Delhi"
+  },
+  {
+    "label": "State",
+    "type": "text",
+    "placeholder": "Delhi"
+  }
+]

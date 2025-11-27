@@ -1,6 +1,7 @@
 import React from "react";
 import Card4 from "../../molecules/Card4";
 import browser from "../../../../public/db/browser.json"
+import Link from "next/link";
 
 const Browser = () => {
   return (
@@ -12,12 +13,14 @@ const Browser = () => {
      
       <div className="grid mt-3 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-4 ">
         {browser.map((item) => (
+           <Link href='/browser-by-subject'>
           <Card4
             key={item.id}
             title={item.title}
             file={item.file}
             iconBgColor={item.iconBgColor}
           />
+          </Link>
         ))}
       </div>
     </div>

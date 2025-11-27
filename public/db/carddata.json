@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Total Files",
+    "no": "10",
+    "iconColor": "#DBEAFE",
+    "imgSrc": "/img/arr2.png"
+  },
+  {
+    "id": 2,
+    "title": "Total Downloads",
+    "no": "12,479",
+    "iconColor": "#DCFCE7",
+    "imgSrc": "/img/arr1.png"
+  },
+  {
+    "id": 3,
+    "title": "Total Pages",
+    "no": "620",
+    "iconColor": "#FFEDD4",
+    "imgSrc": "/img/arr.png"
+  }
+]

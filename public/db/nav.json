@@ -12,22 +12,22 @@
     },
     {
       "icon": "ri-group-line",
-      "route": "/all-users",
+      "route": "/test-series",
       "label": "Test Series"
     },
     {
       "icon": "ri-contract-line",
-      "route": "/consultation-history",
+      "route": "/analytics",
       "label": "Analytics"
     },
        {
       "icon": "ri-currency-line",
-      "route": "/settlement",
+      "route": "/profile",
       "label": "Profile"
     },
     {
       "icon": "ri-contract-line",
-      "route": "/analytics-reports",
+      "route": "/help-support",
       "label": "Help & Support"
     },
     {

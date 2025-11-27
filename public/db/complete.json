@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Prelims Mock Test 14",
+    "paper": "GS Paper 1",
+    "completionStatus": "Completed",
+    "stats": [
+      {
+        "no": "100",
+        "label": "Questions"
+      },
+      {
+        "no": "120 min",
+        "label": "Duration"
+      },
+      {
+        "no": "200",
+        "label": "Marks"
+      }
+    ],
+    "resultStats": [
+      {
+        "no": "142",
+        "label": "Score"
+      },
+      {
+        "no": "89%",
+        "label": "Percentile"
+      },
+      {
+        "no": "71%",
+        "label": "Accuracy"
+      }
+    ]
+  },
+  {
+    "title": "Polity Sectional Test",
+    "paper": "Polity",
+    "completionStatus": "Completed",
+    "stats": [
+      {
+        "no": "50",
+        "label": "Questions"
+      },
+      {
+        "no": "60 min",
+        "label": "Duration"
+      },
+      {
+        "no": "100",
+        "label": "Marks"
+      }
+    ],
+    "resultStats": [
+      {
+        "no": "78",
+        "label": "Score"
+      },
+      {
+        "no": "85%",
+        "label": "Percentile"
+      },
+      {
+        "no": "78%",
+        "label": "Accuracy"
+      }
+    ]
+  }
+]

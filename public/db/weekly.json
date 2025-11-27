@@ -1,0 +1,26 @@
+ [
+  {
+    "img":"/img/weekly1.png",
+    "subject": "Study 40 hours",
+    "completed": 32.8,
+    "total": 40
+  },
+  {
+     "img":"/img/weekly1.png",
+    "subject": "Complete 5 tests",
+    "completed": 4,
+    "total": 5
+  },
+  {
+     "img":"/img/weekly1.png",
+    "subject": "Watch 10 lectures",
+    "completed": 9,
+    "total": 10
+  },
+  {
+     "img":"/img/weekly.png",
+    "subject": "Solve 500 questions",
+    "completed": 375,
+    "total": 500
+  }
+]

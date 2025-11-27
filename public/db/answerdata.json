@@ -1,0 +1,72 @@
+[
+  {
+    "question": "Who was the first President of India?",
+    "options": [
+      "Dr. Rajendra Prasad",
+      "Dr. S. Radhakrishnan",
+      "Dr. Zakir Hussain",
+      "V. V. Giri"
+    ],
+    "correctAnswer": "Dr. Rajendra Prasad",
+    "selectedAnswer": "Dr. Rajendra Prasad",
+    "category": "Indian Polity",
+    "difficulty": "Easy",
+    "explanation": "Dr. Rajendra Prasad was the first President of India. He served from 1950 to 1962, making him the only president to serve for two full terms."
+  },
+  {
+    "question": "Which article of the Indian Constitution deals with the Right to Education?",
+    "options": [
+      "Article 19",
+      "Article 21",
+      "Article 21A",
+      "Article 22"
+    ],
+    "correctAnswer": "Article 21A",
+    "selectedAnswer": "Article 21",
+    "category": "Indian Polity",
+    "difficulty": "Medium",
+    "explanation": "Article 21A provides for free and compulsory education to all children aged 6-14 years. It was inserted by the 86th Constitutional Amendment Act, 2002."
+  },
+  {
+    "question": "The concept of 'Basic Structure' of the Constitution was established in which case?",
+    "options": [
+      "Golakhnath Case",
+      "Kesavananda Bharati Case",
+      "Minerva Mills Case",
+      "Indira Gandhi Case"
+    ],
+    "correctAnswer": "Kesavananda Bharati Case",
+    "selectedAnswer": "Kesavananda Bharati Case",
+    "category": "Indian Polity",
+    "difficulty": "Hard",
+    "explanation": "The basic structure doctrine was established in the landmark Kesavananda Bharati vs State of Kerala case (1973). The Supreme Court held that the Parliament cannot destroy or alter the basic structure of the Constitution."
+  },
+  {
+    "question": "How many members can be nominated by the President to the Rajya Sabha?",
+    "options": [
+      "9",
+      "12",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "12",
+    "selectedAnswer": "12",
+    "category": "Indian Polity",
+    "difficulty": "Easy",
+    "explanation": "The President can nominate 12 members to the Rajya Sabha from amongst persons having special knowledge or practical experience in fields like literature, science, art, and social service."
+  },
+  {
+    "question": "Which Schedule of the Constitution deals with Anti-Defection Law?",
+    "options": [
+      "8th Schedule",
+      "9th Schedule",
+      "10th Schedule",
+      "11th Schedule"
+    ],
+    "correctAnswer": "10th Schedule",
+    "selectedAnswer": "10th Schedule",
+    "category": "Indian Polity",
+    "difficulty": "Medium",
+    "explanation": "The 10th Schedule, added by the 52nd Amendment Act, 1985, deals with the Anti-Defection Law. It provides for disqualification of members on the ground of defection."
+  }
+]

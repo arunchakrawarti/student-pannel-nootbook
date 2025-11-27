@@ -1,0 +1,20 @@
+[
+    {
+      "img": "/img/Sol2.png",
+      "title": "Correct",
+      "no": "3",
+      "color": "bg-[#F0FDF4]"
+    },
+    {
+      "img": "/img/Sol1.png",
+      "title": "Incorrect",
+      "no": "1",
+      "color": "bg-[#FEF2F2]"
+    },
+    {
+      "img": "/img/Sol.png",
+      "title": "Not Attempted",
+      "no": "1",
+      "color": "bg-[#F9FAFB]"
+    }
+  ]

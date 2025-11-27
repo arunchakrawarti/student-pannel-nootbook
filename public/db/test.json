@@ -1,0 +1,26 @@
+[
+  {
+    "img": "/img/Test.png",
+    "title": "23",
+    "description": "Tests Attempted",
+    "color": "bg-orange-100"
+  },
+  {
+    "img": "/img/Test1.png",
+    "title": "68%",
+    "description": "Avg Score",
+    "color": "bg-green-100"
+  },
+  {
+    "img": "/img/Test2.png",
+    "title": "87%",
+    "description": "Avg Percentile",
+    "color": "bg-blue-100"
+  },
+  {
+    "img": "/img/Test3.png",
+    "title": "72%",
+    "description": "Avg Accuracy",
+    "color": "bg-purple-100"
+  }
+]
