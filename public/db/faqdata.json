@@ -1,0 +1,42 @@
+[
+  {
+    "item": "Courses",
+    "question": "How do I access my purchased courses?",
+    "answer": "After purchasing a course, go to 'My Courses' section from the sidebar. All your enrolled courses will be listed there with progress tracking."
+  },
+  {
+    "item": "Courses",
+    "question": "Can I download video lectures?",
+    "answer": "This feature is currently not supported for all courses. Check the specific course details or contact support for more information."
+  },
+  {
+    "item": "Tests",
+    "question": "How do I attempt a test?",
+    "answer": "Go to the 'Tests' section within your course or the main navigation. Select the test you wish to attempt and follow the on-screen instructions."
+  },
+  {
+    "item": "Tests",
+    "question": "Can I pause a test and resume later?",
+    "answer": "Once started, most tests must be completed in one sitting. However, check the instructions for a specific test as some may allow pausing."
+  },
+  {
+    "item": "Payment",
+    "question": "What payment methods are accepted?",
+    "answer": "We accept major credit/debit cards, net banking, and popular digital wallets. All available options will be shown at the checkout page."
+  },
+  {
+    "item": "Payment",
+    "question": "How do I get a refund?",
+    "answer": "Refund policies vary by course. Please refer to our detailed refund policy page for eligibility and instructions on how to request a refund."
+  },
+  {
+    "item": "Technical",
+    "question": "Video is not playing properly",
+    "answer": "Ensure your internet connection is stable. Try clearing your browser's cache and cookies, or try viewing the video in a different browser. If the issue persists, contact technical support."
+  },
+  {
+    "item": "Technical",
+    "question": "How do I reset my password?",
+    "answer": "Click on the 'Forgot Password' link on the login page. Enter your registered email address, and we'll send you a link to reset your password."
+  }
+]

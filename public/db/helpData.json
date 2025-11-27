@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "HiOutlineMail",
+    "title": "Email Support",
+    "info": "support@edulearn.com",
+    "subInfo": "Response within 24 hours",
+    "bg": "bg-blue-100",
+    "color": "text-blue-500"
+  },
+  {
+    "icon": "FiPhone",
+    "title": "Phone Support",
+    "info": "+91 1800-123-4567",
+    "subInfo": "Mon-Sat, 9 AM - 6 PM",
+    "bg": "bg-green-100",
+    "color": "text-green-500"
+  },
+  {
+    "icon": "BsChatDots",
+    "title": "Live Chat",
+    "info": "Chat with us",
+    "subInfo": "Available 24/7",
+    "bg": "bg-purple-100",
+    "color": "text-purple-500"
+  }
+]
