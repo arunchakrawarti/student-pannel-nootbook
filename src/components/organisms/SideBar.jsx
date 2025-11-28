@@ -36,23 +36,22 @@ const SideBar = ({ isSidebarOpen, setIsSidebarOpen }) => {
         } w-80 md:w-80 xl:w-80`}
       >
         <nav className="flex h-full flex-col gap-2 py-4 md:gap-7">
-          <div className="flex gap-3 px-8 md:mt-5">
-            
-              <h1 className="bg-white text-[1.4rem] font-bold rounded-full md:text-[2.5rem]">
-                <Image
+          <div className="flex gap-3 px-8 sm:mt-5 md:mt-5">
+            <h1 className="bg-white text-[1.4rem] font-bold rounded-full md:text-[2.5rem]">
+              <Image
                 src="/img/notebook.png"
                 height={64}
-                width={78} alt="logo"
-                />
-              </h1>
-              
-              <h1 className="font-inter text-[24px] font-medium leading-[100%] tracking-[0.07px] align-middle text-white">
-               Student’s Dashboard
-              </h1>
-           
+                width={78}
+                alt="logo"
+              />
+            </h1>
+
+            <h1 className="font-inter text-[24px] font-medium leading-[100%] tracking-[0.09px] align-middle text-white">
+              Student’s Dashboard
+            </h1>
           </div>
 
-          <ul className="scrollbar-hidden flex h-full w-full flex-col gap-2 overflow-y-scroll px-6 text-lg md:mt-5 md:text-xl">
+          <ul className="scrollbar-hidden flex h-full w-full flex-col gap-2 overflow-y-scroll px-6 text-lg md:mt-5 sm:mt-7 md:text-xl">
             <div className="flex w-full flex-col gap-2">
               {navigation.map((item, index) => {
                 const { route, label, icon, children } = item;

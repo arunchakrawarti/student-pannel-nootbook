@@ -22,7 +22,7 @@ const Prelism = () => {
 
           <button
             onClick={() => setOpenModal(true)}
-            className="font-inter font-medium text-[14px] border px-3 rounded-md py-1 border-gray-200"
+            className="font-inter font-medium text-[14px] border cursor-pointer px-3 rounded-md py-1 border-gray-200"
           >
             Submit Test
           </button>

@@ -1,12 +1,12 @@
 {
   "navigation": [
     {
-      "icon": "ri-speed-up-line",
+      "icon": "ri-dashboard-line",
       "route": "/",
       "label": "Dashboard"
     },
     {
-      "icon": "ri-psychotherapy-line",
+      "icon": "ri-book-read-line",
       "route": "/study-material",
       "label": "Study Material"
     },
@@ -16,7 +16,7 @@
       "label": "Test Series"
     },
     {
-      "icon": "ri-contract-line",
+      "icon": "ri-line-chart-line",
       "route": "/analytics",
       "label": "Analytics"
     },
@@ -26,12 +26,12 @@
       "label": "Profile"
     },
     {
-      "icon": "ri-contract-line",
+      "icon": "ri-question-line",
       "route": "/help-support",
       "label": "Help & Support"
     },
     {
-      "icon": "ri-contract-line",
+      "icon": "ri-save-line",
       "route": "/analytics-reports",
       "label": "Store"
     }

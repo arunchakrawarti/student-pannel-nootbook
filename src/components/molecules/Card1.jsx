@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Card1 = ({ title, description, days, Question }) => {
@@ -24,9 +25,11 @@ const Card1 = ({ title, description, days, Question }) => {
           {Question}
         </p>
 
+       <Link href='/test-series'>
         <button className="bg-[#FF6029] text-white px-3 py-2 rounded text-[14px] leading-[20px]">
           Start Test
         </button>
+       </Link>
       </div>
     </div>
   );

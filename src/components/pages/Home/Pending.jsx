@@ -3,6 +3,7 @@ import Card1 from "../../molecules/Card1";
 import data from "../../../../public/db/data.json";
 import Card2 from "../../molecules/Card2";
 import Image from "next/image";
+import Link from "next/link";
 
 const cardData = [
   {
@@ -64,7 +65,9 @@ const Pending = () => {
         ))}
 
         <div className="text-center border border-gray-500 rounded-md py-2">
+          <Link href='test-series'>
           <button>View All Result</button>
+          </Link>
         </div>
       </div>
     </div>

@@ -38,7 +38,7 @@ const SubmitModel = ({ open, setOpen }) => {
             Cancel
           </button>
 
-          <button className="px-4 py-2 bg-[#00C950] text-white rounded-md">
+          <button className="px-4 py-2 bg-[#00C950] cursor-pointer text-white rounded-md">
             Submit Test
           </button>
         </div>
