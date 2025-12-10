@@ -29,7 +29,7 @@ const DashboardLink = ({
           onClick={toggleSubMenu}
           className={`${
             active
-              ? "bg-[#FF6029] text-primary"
+              ? "container text-primary"
               : "text-secondary bg-transparent"
           } hover:bg-[#e09379] hover:text-primary flex w-full flex-row items-center justify-between rounded-md px-1 py-2.5 transition-all duration-200`}
         >

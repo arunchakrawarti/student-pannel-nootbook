@@ -1,0 +1,32 @@
+[
+  {
+    "img": "/icons/completed.png",
+    "title": "Introduction to Indian Polity",
+    "description": "42 min",
+    "button": "Rewatch"
+  },
+  {
+    "img": "/icons/completed.png",
+    "title": "Constitutional Framework",
+    "description": "38 min",
+    "button": "Rewatch"
+  },
+  {
+    "img": "/icons/completed.png",
+    "title": "Fundamental Rights - Part 1",
+    "description": "58 min",
+    "button": "Rewatch"
+  },
+  {
+    "img": "/icons/play.png",
+    "title": "Fundamental Rights - Part 2",
+    "description": "40 min",
+    "button": "Watch"
+  },
+  {
+    "img": "/icons/play.png",
+    "title": "DPSP and Fundamental Duties",
+    "description": "56 min",
+    "button": "Watch"
+  }
+]

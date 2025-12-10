@@ -6,6 +6,16 @@
       "label": "Dashboard"
     },
     {
+      "icon": "ri-dashboard-line",
+      "route": "/my-course",
+      "label": "My Course"
+    },
+    {
+      "icon": "ri-dashboard-line",
+      "route": "/",
+      "label": "Live Classes"
+    },
+    {
       "icon": "ri-book-read-line",
       "route": "/study-material",
       "label": "Study Material"
@@ -14,6 +24,21 @@
       "icon": "ri-currency-line",
       "route": "/test-series",
       "label": "Test Series"
+    },
+    {
+      "icon": "ri-currency-line",
+      "route": "/test-series",
+      "label": "Answer Writing"
+    },
+     {
+      "icon": "ri-currency-line",
+      "route": "/test-series",
+      "label": "Practice"
+    },
+    {
+      "icon": "ri-currency-line",
+      "route": "/test-series",
+      "label": "Marketplace"
     },
     {
       "icon": "ri-line-chart-line",

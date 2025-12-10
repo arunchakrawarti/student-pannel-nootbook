@@ -1,0 +1,34 @@
+[
+  {
+    "img": "/img/MyCourse/course1.png",
+    "title": "UPSC GS Foundation Course",
+    "teacher": "by Dr. Vikas Singh",
+    "lecture": "68/150 lectures",
+    "date": "31 Dec 2025",
+    "progress": 45
+  },
+  {
+    "img": "/img/MyCourse/course2.png",
+    "title": "Indian Economy Complete",
+    "teacher": "by CA. Priya Mehta",
+    "lecture": "56/80 lectures",
+    "date": "30 Jun 2026",
+    "progress": 70
+  },
+  {
+    "img": "/img/MyCourse/course3.png",
+    "title": "Modern History Masterclass",
+    "teacher": "by Prof. Anjali Gupta",
+    "lecture": "15/60 lectures",
+    "date": "31 Dec 2025",
+    "progress": 23
+  },
+  {
+    "img": "/img/MyCourse/course.png",
+    "title": "Geography & Environment",
+    "teacher": "by Dr. Ramesh Kumar",
+    "lecture": "42/70 lectures",
+    "date": "31 Mar 2026",
+    "progress": 60
+  }
+]

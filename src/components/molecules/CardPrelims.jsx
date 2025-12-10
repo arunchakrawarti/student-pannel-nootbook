@@ -39,7 +39,7 @@ const CardPrelims = ({ title, paper, days, stats = [] }) => {
       </div>
 
       <Link href='/start-test'>
-      <button className="w-full bg-[#FF6029] text-white font-medium text-[16px] py-3 rounded-lg mt-8">
+      <button className="w-full container font-medium text-[16px] py-3 rounded-lg mt-8">
         Start Test
       </button>
       </Link>
