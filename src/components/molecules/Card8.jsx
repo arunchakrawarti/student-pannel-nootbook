@@ -79,7 +79,7 @@ const Card8 = ({ title, paragraph, pages, MB, month, download }) => {
         </div>
 
         {/* DOWNLOAD BUTTON */}
-        <div className="flex items-center gap-1 bg-[#FF6029] text-white px-3 py-1 rounded-md cursor-pointer">
+        <div className="flex items-center gap-1 bg-[var(--color-accent-orange)]  text-white px-3 py-1 rounded-md cursor-pointer">
           <LuDownload size={18} />
           <button className="font-inter text-[14px] font-medium">
             Download

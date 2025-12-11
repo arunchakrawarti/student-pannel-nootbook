@@ -1,0 +1,22 @@
+import React from "react";
+
+const Coursecard1 = ({ items }) => {
+  return (
+    <div className="space-y-2">
+      {items.map((item, index) => (
+        <div key={index} className="flex items-start gap-2">
+          
+          {/* Bullet Dot */}
+          <span className="mt-2 w-2 h-2 rounded-full bg-orange-500"></span>
+
+          {/* Text */}
+          <p className="text-[14px] leading-[20px] font-inter text-[#1E293B]">
+            {item.text}
+          </p>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default Coursecard1;

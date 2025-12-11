@@ -1,4 +1,4 @@
-import Course from '@/components/pages/MyCourses/slug/Course'
+import CourseVideoPlayer from '@/components/pages/MyCourses/slug/syllabus/CourseVideoPlayer'
 import MainLayout from '@/components/templates/MainLayout'
 import React from 'react'
 
@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div>
       <MainLayout>
-        <Course/>
+        <CourseVideoPlayer/>
       </MainLayout>
     </div>
   )

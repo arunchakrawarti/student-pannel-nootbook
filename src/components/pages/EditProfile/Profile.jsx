@@ -30,7 +30,7 @@ const Profile = () => {
           "
         >
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <div className="h-[80px] w-[80px] bg-[#FF6029] rounded-full flex justify-center items-center">
+            <div className="h-[80px] w-[80px] bg-[var(--color-accent-orange)] rounded-full flex justify-center items-center">
               <p className="font-inter text-white font-normal text-[32px] tracking-[0.4px]">
                 R
               </p>

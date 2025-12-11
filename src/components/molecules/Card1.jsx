@@ -26,7 +26,7 @@ const Card1 = ({ title, description, days, Question }) => {
         </p>
 
        <Link href='/test-series'>
-        <button className="container  px-3 py-2 rounded text-[14px] leading-[20px]">
+        <button className="bg-[var(--color-accent-orange)] text-white px-3 py-2 rounded text-[14px] leading-[20px]">
           Start Test
         </button>
        </Link>

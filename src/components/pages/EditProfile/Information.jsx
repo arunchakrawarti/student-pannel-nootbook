@@ -4,6 +4,7 @@ import input from "../../../../public/db/input.json";
 import React from "react";
 import { RiSave3Line } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
+import { Button } from "@/components/comman/Button";
 
 const Information = () => {
   return (
@@ -22,10 +23,10 @@ const Information = () => {
           />
         ))}
       </div>
-      <div className="flex flex-col sm:flex-row text-center lg:flex-row  mb-5 gap-5">
-        <div className="flex gap-2 px-4 py-2 justify-center rounded-md text-white  items-center bg-[#FF6029]">
+      <div className="flex flex-col sm:flex-row text-center justify-end lg:flex-row  mb-5 gap-5">
+        <div className="flex px-4 py-2 justify-center items-center bg-[var(--color-accent-orange)] text-white rounded-md">
           <RiSave3Line />
-          <button>Save Changes</button>
+          <Button>Save Changes</Button>
         </div>
         <div className="flex gap-2 bg-white border justify-center border-gray-300 px-4 py-2 items-center rounded-md">
           <RxCross2 />

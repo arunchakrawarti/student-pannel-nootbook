@@ -3,16 +3,24 @@ import videoList from "../../../../../public/db/videoList.json";
 
 const VideoLecture = () => {
   return (
-    <div className="flex flex-col gap-3">
-      {videoList.map((item, index) => (
-        <VideoCard
-          key={index}
-          img={item.img}
-          title={item.title}
-          description={item.description}
-          button={item.button}
-        />
-      ))}
+    <div className="p-4 bg-white rounded-md shadow mx-4 mt-4">
+      <h1 className="font-inter font-normal text-[16px] leading-[16px] tracking-[-0.31px]">
+        Video Lectures
+      </h1>
+
+      <div className="flex mt-4 flex-col gap-3">
+
+        {videoList.map((item, index) => (
+          <VideoCard
+            key={index}
+            status={item.status}
+            title={item.title}
+            description={item.description}
+            button={item.button}
+          />
+        ))}
+
+      </div>
     </div>
   );
 };

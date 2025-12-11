@@ -1,9 +1,9 @@
 import React from 'react'
 import FoundationCourse from './FoundationCourse'
-import Overview from './Overview'
+import Overview from './OverviewCategory'
 import VideoLecture from './VideoLecture'
 
-const Course = () => {
+const MainSlug = () => {
   return (
     <div>
       <FoundationCourse/>
@@ -13,4 +13,4 @@ const Course = () => {
   )
 }
 
-export default Course
+export default MainSlug

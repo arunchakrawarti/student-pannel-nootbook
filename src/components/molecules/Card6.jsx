@@ -72,7 +72,7 @@ const Card6 = ({
       </div>
 
       
-      <button className='w-full flex items-center justify-center gap-2 py-3 rounded-lg container font-medium text-[16px] hover:bg-orange-600 transition-colors'>
+      <button className='w-full flex items-center justify-center gap-2 py-3 rounded-lg bg-[var(--color-accent-orange)] text-white font-medium text-[16px] hover:bg-orange-600 transition-colors'>
         <IoDownload className='text-[18px]'/>
         Download PDF
       </button>

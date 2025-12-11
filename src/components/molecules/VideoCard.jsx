@@ -1,35 +1,54 @@
-import Image from "next/image";
 import React from "react";
+import { AiOutlineCheckCircle } from "react-icons/ai";
+import { GoVideo } from "react-icons/go";
+import { Button } from "../comman/Button";
 
-const VideoCard = ({ img, title, description, button }) => {
+const VideoCard = ({ title, description, button, status }) => {
   return (
-    <div className="flex justify-between items-center bg-white p-4 rounded-lg shadow w-full">
+    <div
+      className="
+        flex flex-col sm:flex-row sm:justify-between sm:items-center 
+        bg-white p-4 rounded-lg shadow w-full gap-4 sm:gap-0
+      "
+    >
+     
       <div className="flex gap-3 items-center">
-        <Image 
-          src={img} 
-          height={30} 
-          width={30} 
-          alt="video-icon"
-        />
+
+        
+        <div
+          className="w-[30px] h-[30px] rounded-full flex items-center justify-center"
+          style={{
+            backgroundColor: status === "completed" ? "#DCFCE7" : "#FFEDD4",
+          }}
+        >
+          {status === "completed" ? (
+            <AiOutlineCheckCircle size={20} className="text-[#00A63E]" />
+          ) : (
+            <GoVideo size={16} className="text-[#FF6029]" />
+          )}
+        </div>
 
         <div>
-          <h2 className="font-inter font-normal text-[16px] leading-[24px] tracking-[-0.31px]">
+          <h2 className="font-inter text-[16px] leading-[24px] tracking-[-0.31px]">
             {title}
           </h2>
-          <p className="font-inter font-normal text-[14px] leading-[20px] tracking-[-0.15px] text-secondary">
+          <p className="font-inter text-[14px] leading-[20px] tracking-[-0.15px] text-secondary">
             {description}
           </p>
         </div>
       </div>
 
-    
-      <button className="
-        font-inter font-medium text-[14px] leading-[20px] tracking-[-0.15px]
-        container px-4 py-1 rounded-md
-      ">
+     
+      <Button
+        className="
+          text-white
+          w-full sm:w-auto
+          full width, desktop auto 
+          text-center
+        "
+      >
         {button}
-      </button>
-
+      </Button>
     </div>
   );
 };

@@ -9,7 +9,7 @@ const Pro = () => {
     <div>
       <Progress/>
       <Weekly/>
-      <Subject/>
+      {/* <Subject/> */}
       <Goal/>
     </div>
   )

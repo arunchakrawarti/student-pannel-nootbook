@@ -12,7 +12,7 @@ const Prelims = () => {
       }}
     >
       <div className=" pt-5 w-full flex justify-center">
-        <div className="h-[80px] w-[80px] container flex rounded-full justify-center items-center">
+        <div className="h-[80px] w-[80px] bg-[var(--color-accent-orange)] flex rounded-full justify-center items-center">
           <Image
             src="/img/result.png"
             height={40}

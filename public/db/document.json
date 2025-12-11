@@ -9,7 +9,7 @@
     "downloads": 1234,
     "cardBgColor": "bg-[#EFF6FF]",
     "iconBgColor": "bg-[#E0F2FE]",
-    "tagBgColor": "bg-[#16344E]",
+    "tagBgColor": "bg-[var(--color-accent-blue)]",
     "tagTextColor": "text-white"
   },
   {
@@ -22,7 +22,7 @@
     "downloads": 987,
     "cardBgColor": "bg-[#FAF5FF]",
     "iconBgColor": "bg-[#F3E8FF]",
-    "tagBgColor": "bg-[#16344E]",
+    "tagBgColor": "bg-[var(--color-accent-blue)]",
     "tagTextColor": "text-white"
   },
   {
@@ -35,7 +35,7 @@
     "downloads": 1456,
     "cardBgColor": "bg-[#F0FDF4]",
     "iconBgColor": "bg-[#DCFCE7]",
-    "tagBgColor": "bg-[#16344E]",
+    "tagBgColor": "bg-[var(--color-accent-blue)]",
     "tagTextColor": "text-white"
   },
   {
@@ -48,7 +48,7 @@
     "downloads": 1678,
     "cardBgColor": "bg-[#FFF7ED]",
     "iconBgColor": "bg-[#FFEDD5]",
-    "tagBgColor": "bg-[#16344E]",
+    "tagBgColor": "bg-[var(--color-accent-blue)]",
     "tagTextColor": "text-white"
   },
   {
@@ -61,7 +61,7 @@
     "downloads": 878,
     "cardBgColor": "bg-[#FEF2F2]",
     "iconBgColor": "bg-[#FFE4E6]",
-    "tagBgColor": "bg-[#16344E]",
+    "tagBgColor": "bg-[var(--color-accent-blue)]",
     "tagTextColor": "text-white"
   },
   {
@@ -74,7 +74,7 @@
     "downloads": 1890,
     "cardBgColor": "bg-[#EFF6FF]",
     "iconBgColor": "bg-[#E0F2FE]",
-    "tagBgColor": "bg-[#16344E]",
+    "tagBgColor": "bg-[var(--color-accent-blue)]",
     "tagTextColor": "text-white"
   },
   {
@@ -87,7 +87,7 @@
     "downloads": 723,
     "cardBgColor": "bg-[#FAF5FF]",
     "iconBgColor": "bg-[#F3E8FF]",
-    "tagBgColor": "bg-[#16344E]",
+    "tagBgColor": "bg-[var(--color-accent-blue)]",
     "tagTextColor": "text-white"
   },
   {
@@ -100,7 +100,7 @@
     "downloads": 1123,
     "cardBgColor": "bg-[#F0FDF4]",
     "iconBgColor": "bg-[#DCFCE7]",
-    "tagBgColor": "bg-[#16344E]",
+    "tagBgColor": "bg-[var(--color-accent-blue)]",
     "tagTextColor": "text-white"
   }
 ]

@@ -36,7 +36,7 @@ const CourseCard = ({ img, title, teacher, lecture, date, progress }) => {
         
         <div className="w-full bg-gray-200 rounded-full h-[6px] mt-3">
           <div
-            className="container h-[6px] rounded-full"
+            className="bg-[var(--color-accent-orange)] h-[6px] rounded-full"
             style={{ width: `${progress}%` }}
           ></div>
         </div>
@@ -56,7 +56,7 @@ const CourseCard = ({ img, title, teacher, lecture, date, progress }) => {
         </div>
 
       
-        <button className="w-full mt-5 container py-3 rounded-lg text-[14px] font-medium">
+        <button className="w-full mt-5 bg-[var(--color-accent-orange)] text-white py-3 rounded-lg text-[14px] font-medium">
           Continue Learning
         </button>
       </div>

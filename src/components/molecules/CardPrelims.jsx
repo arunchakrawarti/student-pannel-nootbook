@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { Button } from "../comman/Button";
 
 const CardPrelims = ({ title, paper, days, stats = [] }) => {
   return (
@@ -39,9 +40,10 @@ const CardPrelims = ({ title, paper, days, stats = [] }) => {
       </div>
 
       <Link href='/start-test'>
-      <button className="w-full container font-medium text-[16px] py-3 rounded-lg mt-8">
+      <Button className="max-w-full
+ bg-[var(--color-accent-orange)]  text-white font-medium text-[16px] py-3 rounded-lg mt-8">
         Start Test
-      </button>
+      </Button>
       </Link>
     </div>
   );

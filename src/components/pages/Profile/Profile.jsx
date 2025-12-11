@@ -3,6 +3,7 @@ import { IoCallOutline } from "react-icons/io5";
 import { FiEdit } from "react-icons/fi";
 import React from "react";
 import Link from "next/link";
+import { Button } from "@/components/comman/Button";
 
 const Profile = () => {
   return (
@@ -31,7 +32,7 @@ const Profile = () => {
           "
         >
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <div className="h-[80px] w-[80px] bg-[#FF6029] rounded-full flex justify-center items-center">
+            <div className="h-[80px] w-[80px] bg-[var(--color-accent-orange)] rounded-full flex justify-center items-center">
               <p className="font-inter text-white font-normal text-[32px] tracking-[0.4px]">
                 R
               </p>
@@ -70,16 +71,14 @@ const Profile = () => {
           </div>
 
           <Link href="/edit-profile">
-            <button
-              className="
+            <Button
+              className=" max-w-full
               flex items-center justify-center gap-2
-              px-3 py-2 rounded-md
-              text-white bg-[#FF6029]
-              font-inter text-[14px] w-full md:w-auto
+               text-white
             "
             >
               <FiEdit size={16} /> Edit Profile
-            </button>
+            </Button>
           </Link>
         </div>
       </div>

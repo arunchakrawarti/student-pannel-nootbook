@@ -1,8 +1,10 @@
+import { Button } from '@/components/comman/Button'
 import QuestionCard from '@/components/molecules/QuestionCard'
 import React from 'react'
 
 const Question = () => {
   return (
+    <div>
     <div className="w-full mt-5 flex flex-col lg:flex-row justify-between gap-5">
       
       
@@ -31,7 +33,13 @@ const Question = () => {
           <QuestionCard no="Time Saved" title="2 min" color="text-green-600" />
         </div>
       </div>
-
+   
+    </div>
+     <div className="flex pt-5 justify-end">
+  <Button className='text-white px-20'>
+    View Solutions
+  </Button>
+</div>
     </div>
   )
 }

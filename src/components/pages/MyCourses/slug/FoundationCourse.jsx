@@ -65,7 +65,7 @@ const FoundationCourse = () => {
          
           <div className="w-full bg-gray-200 rounded-full h-[6px]">
             <div
-              className="container h-full rounded-full transition-all duration-500"
+              className="bg-[var(--color-accent-orange)] h-full rounded-full transition-all duration-500"
               style={{ width: `${progress}%` }}
             ></div>
           </div>

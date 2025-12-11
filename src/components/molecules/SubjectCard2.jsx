@@ -24,7 +24,7 @@ const SubjectCard2 = ({ subject, completed, img, total, small }) => {
 
       <div className="relative w-full h-2 rounded-full mt-3 bg-orange-100">
         <div
-          className="h-2 bg-orange-500 rounded-full transition-all duration-500"
+          className="h-2 bg-[var(--color-accent-orange)] rounded-full transition-all duration-500"
           style={{ width: `${progress}%` }}
         ></div>
       </div>

@@ -16,7 +16,7 @@ const CardQuestion = ({ alphabet, title, status = 'default' }) => {
     flex items-center justify-center w-8 h-8 rounded-full 
     font-inter font-medium text-[14px] leading-[20px] mr-3
     ${isSelected 
-      ? 'bg-[#FF6029] text-white'     
+      ? 'bg-[var(--color-accent-orange)] text-white'     
       : 'bg-[#F5F7FA] text-gray-700'  
     }
   `;

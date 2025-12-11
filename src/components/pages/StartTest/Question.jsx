@@ -53,7 +53,7 @@ const Question = () => {
           <div className="flex justify-between flex-col sm:flex-row md:flex-row gap-5">
             <button>Clear Response</button>
 
-            <div className="flex items-center bg-[#FF6029] gap-3 text-white px-3 py-2 rounded-md">
+            <div className="flex items-center justify-center bg-[var(--color-accent-orange)] gap-3 text-white px-3 py-2 rounded-md">
               <button>Next</button>
               <LuChevronRight />
             </div>
