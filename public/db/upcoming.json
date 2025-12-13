@@ -1,0 +1,29 @@
+[
+  {
+    "type": "session",
+    "id": 1,
+    "sessionTitle": "Polity - Constitutional Amendments",
+    "sessionBy": "Dr. Vikas Singh",
+    "sessionDate": "16 Nov 2025",
+    "sessionTime": "6:00 PM",
+    "sessionDuration": "90 min"
+  },
+  {
+    "type": "session",
+    "id": 2,
+    "sessionTitle": "Modern History - Freedom Struggle",
+    "sessionBy": "Prof. Anjali Gupta",
+    "sessionDate": "17 Nov 2025",
+    "sessionTime": "5:00 PM",
+    "sessionDuration": "90 min"
+  },
+  {
+    "type": "session",
+    "id": 3,
+    "sessionTitle": "Current Affairs - Weekly Discussion",
+    "sessionBy": "Dr. Ramesh Kumar",
+    "sessionDate": "18 Nov 2025",
+    "sessionTime": "7:00 PM",
+    "sessionDuration": "60 min"
+  }
+]

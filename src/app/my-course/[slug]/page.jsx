@@ -1,4 +1,4 @@
-import MainSlug from '@/components/pages/MyCourses/slug/Index'
+import MainSlug from '@/components/pages/myCourses/slug/Index'
 import MainLayout from '@/components/templates/MainLayout'
 import React from 'react'
 

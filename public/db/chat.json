@@ -1,0 +1,26 @@
+[
+  {
+    "type": "chat",
+    "userName": "Rahul Sharma",
+    "message": "Good evening sir!",
+    "time": "6:01 PM"
+  },
+  {
+    "type": "chat",
+    "userName": "Dr. Ramesh Kumar",
+    "message": "Good evening everyone! Let's begin today's session.",
+    "time": "6:02 PM"
+  },
+  {
+    "type": "chat",
+    "userName": "Priya Singh",
+    "message": "Sir, can you please explain the concept again?",
+    "time": "6:13 PM"
+  },
+  {
+    "type": "chat",
+    "userName": "Dr. Ramesh Kumar",
+    "message": "Sure, let me elaborate on that point.",
+    "time": "6:15 PM"
+  }
+]

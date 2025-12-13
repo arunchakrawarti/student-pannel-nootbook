@@ -1,0 +1,97 @@
+{
+  "liveClassView": {
+    "classDetails": {
+      "title": "Geography - Climate Patterns & Monsoon",
+      "instructor": "Dr. Ramesh Kumar",
+      "status": "LIVE"
+    },
+    "participants": [
+      {
+        "name": "Dr. Ramesh Kumar",
+        "role": "Instructor",
+        "isOnline": true
+      },
+      {
+        "name": "Rahul Sharma",
+        "role": "Student",
+        "isOnline": true
+      },
+      {
+        "name": "Priya Singh",
+        "role": "Student",
+        "isOnline": true
+      },
+      {
+        "name": "Amit Kumar",
+        "role": "Student",
+        "isOnline": false
+      }
+    ],
+    "chatMessages": [
+      {
+        "sender": "Rahul Sharma",
+        "text": "Good evening sir!",
+        "time": "6:01 PM",
+        "role": "student"
+      },
+      {
+        "sender": "Dr. Ramesh Kumar",
+        "text": "Good evening everyone! Let's begin today's session.",
+        "time": "6:02 PM",
+        "role": "instructor"
+      },
+      {
+        "sender": "Priya Singh",
+        "text": "Sir, can you please explain the concept again?",
+        "time": "6:15 PM",
+        "role": "student"
+      },
+      {
+        "sender": "Dr. Ramesh Kumar",
+        "text": "Sure, let me elaborate on that point.",
+        "time": "6:16 PM",
+        "role": "instructor"
+      }
+    ],
+    "sessionNotes": [
+      {
+        "text": "Today's topic: Geography - Climate Patterns & Monsoon"
+      },
+      {
+        "text": "Reference materials will be shared after the class"
+      },
+      {
+        "text": "Recording will be available within 24 hours"
+      }
+    ]
+  },
+  "upcomingSessionCards": [
+    {
+      "id": 101,
+      "type": "session",
+      "title": "Polity - Constitutional Amendments",
+      "sessionBy": "Dr. Vikas Singh",
+      "sessionDate": "16 Nov 2025",
+      "sessionTime": "6:00 PM",
+      "duration": "90 min"
+    },
+    {
+      "id": 102,
+      "type": "session",
+      "title": "Modern History - Freedom Struggle",
+      "sessionBy": "Prof. Anjali Gupta",
+      "sessionDate": "17 Nov 2025",
+      "sessionTime": "5:00 PM",
+      "duration": "90 min"
+    },
+    {
+      "id": 103,
+      "type": "session",
+      "title": "Current Affairs - Weekly Discussion",
+      "sessionBy": "Dr. Ramesh Kumar",
+      "sessionDate": "18 Nov 2025",
+      "sessionTime": "7:00 PM",
+      "duration": "60 min"
+    }
+  ]
+}

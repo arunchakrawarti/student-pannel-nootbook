@@ -1,6 +1,6 @@
 import React from "react";
-import Card8 from "../../molecules/Card8";
-import pdf from "../../../../public/db/pdf.json";
+import Card8 from "../../molecules/Card8"; 
+import pdf from "../../../../public/db/pdf.json"; 
 
 const AllMaterial = () => {
   return (
@@ -11,15 +11,11 @@ const AllMaterial = () => {
       </h1>
 
       <div className="mt-4 space-y-4">
-        {pdf.map((pdf, index) => (
+        {pdf.map((item, index) => (
           <Card8
             key={index}
-            title={pdf.title}
-            paragraph={pdf.paragraph}
-            pages={pdf.pages}
-            MB={pdf.MB}
-            month={pdf.month}
-            download={pdf.download}
+            data={item} 
+            type={item.type} 
           />
         ))}
       </div>

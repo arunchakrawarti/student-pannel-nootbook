@@ -1,6 +1,7 @@
 import Card9 from "@/components/molecules/Card9";
 import React from "react";
-import test from "../../../../public/db/test.json";
+// Assuming the updated JSON file is now imported as 'test'
+import test from "../../../../public/db/test.json"; 
 
 const TestCard = () => {
   return (
@@ -8,10 +9,14 @@ const TestCard = () => {
       {test.map((item, i) => {
         return (
           <Card9
-            img={item.img}
-            title={item.title}
-            description={item.description}
-            color={item.color}
+            key={i}
+            
+            iconSrc={item.img}           
+            value={item.title}          
+            label={item.description}     
+            colorClass={item.color}     
+            imagePosition={item.imagePosition} 
+            reverseText={item.reverseText}    
           />
         );
       })}

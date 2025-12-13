@@ -1,0 +1,125 @@
+[
+  {
+    "id": 101,
+    "iconSrc": "/img/logo.png",
+    "value": "",
+    "label": "UPSC Answer Writing",
+    "colorClass": "bg-[#DCFCE7]",
+    "imagePosition": "left",
+    "reverseText": false,
+    "isFullColorCard": true,
+    "iconHeight": 48,
+    "iconWidth": 48
+  },
+  {
+    "id": 102,
+    "iconSrc": "/img/logo.png",
+    "value": "",
+    "label": "BPSC Answer Writing",
+    "colorClass": "bg-[#DCFCE7]",
+    "imagePosition": "left",
+    "reverseText": false,
+    "isFullColorCard": true,
+    "iconHeight": 48,
+    "iconWidth": 48
+  },
+  {
+    "id": 103,
+    "iconSrc": "/img/logo.png",
+    "value": "",
+    "label": "UP-PSC Answer Writing",
+    "colorClass": "bg-[#DCFCE7]",
+    "imagePosition": "left",
+    "reverseText": false,
+    "isFullColorCard": true,
+    "iconHeight": 48,
+    "iconWidth": 48
+  },
+
+  {
+    "id": 104,
+    "iconSrc": "/img/logo.png",
+    "value": "",
+    "label": "MP-PSC Answer Writing",
+    "colorClass": "bg-[#DCFCE7]",
+    "imagePosition": "left",
+    "reverseText": false,
+    "isFullColorCard": true,
+    "iconHeight": 48,
+    "iconWidth": 48
+  },
+  {
+    "id": 105,
+    "iconSrc": "/img/logo.png",
+    "value": "",
+    "label": "MP-PSC Answer Writing",
+    "colorClass": "bg-[#DCFCE7]",
+    "imagePosition": "left",
+    "reverseText": false,
+    "isFullColorCard": true,
+    "iconHeight": 48,
+    "iconWidth": 48
+  },
+  {
+    "id": 106,
+    "iconSrc": "/img/logo.png",
+    "value": "",
+    "label": "MP-PSC Answer Writing",
+    "colorClass": "bg-[#DCFCE7]",
+    "imagePosition": "left",
+    "reverseText": false,
+    "isFullColorCard": true,
+    "iconHeight": 48,
+    "iconWidth": 48
+  },
+
+  {
+    "id": 107,
+    "iconSrc": "/img/logo.png",
+    "value": "",
+    "label": "MP-PSC Answer Writing",
+    "colorClass": "bg-[#DCFCE7]",
+    "imagePosition": "left",
+    "reverseText": false,
+    "isFullColorCard": true,
+    "iconHeight": 48,
+    "iconWidth": 48
+  },
+  {
+    "id": 108,
+    "iconSrc": "/img/logo.png",
+    "value": "",
+    "label": "MP-PSC Answer Writing",
+    "colorClass": "bg-[#DCFCE7]",
+    "imagePosition": "left",
+    "reverseText": false,
+    "isFullColorCard": true,
+    "iconHeight": 48,
+    "iconWidth": 48
+  },
+  {
+    "id": 109,
+    "iconSrc": "/img/logo.png",
+    "value": "",
+    "label": "MP-PSC Answer Writing",
+    "colorClass": "bg-[#DCFCE7]",
+    "imagePosition": "left",
+    "reverseText": false,
+    "isFullColorCard": true,
+    "iconHeight": 48,
+    "iconWidth": 48
+  },
+
+  {
+    "id": 110,
+    "iconSrc": "/img/logo.png",
+    "value": "",
+    "label": "MP-PSC Answer Writing",
+    "colorClass": "bg-[#DCFCE7]",
+    "imagePosition": "left",
+    "reverseText": false,
+    "isFullColorCard": true,
+    "iconHeight": 48,
+    "iconWidth": 48
+  }
+]

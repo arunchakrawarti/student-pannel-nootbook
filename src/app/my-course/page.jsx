@@ -1,4 +1,4 @@
-import Mycourse from '@/components/pages/MyCourses/MyCourse'
+import Mycourse from '@/components/pages/myCourses/MyCourse'
 import MainLayout from '@/components/templates/MainLayout'
 import React from 'react'
 

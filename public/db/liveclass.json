@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "img": "/img/MyCourse/course.png", 
+        "title": "Geography - Climate Parameters & Mansoon",
+        "teacher": "Dr. Ramesh Kumar",
+        "isLiveSession": true,
+        "liveBadgeText": "Starts in 2 hours",
+        "sessionTime": "5:00 PM - 6:30 PM",
+        "registeredCount": 234
+    },
+    {
+        "id": 2,
+        "img": "/img/MyCourse/course2.png", 
+        "title": "Economy - Banking Sector Reforms",
+        "teacher": "CA. Priya Mehta",
+        "isLiveSession": true,
+        "liveBadgeText": "Starts in 4 hours",
+        "sessionTime": "7:00 PM - 8:30 PM",
+        "registeredCount": 180
+    }
+]

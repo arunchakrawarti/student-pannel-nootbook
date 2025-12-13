@@ -1,63 +1,144 @@
 import Image from "next/image";
+import React from "react";
 import { GoSingleSelect } from "react-icons/go";
 import { TbStopwatch } from "react-icons/tb";
-import React from "react";
+import { FiUsers } from "react-icons/fi";
+import { SlClock } from "react-icons/sl";
+import { LuCalendar } from "react-icons/lu";
 
-const CourseCard = ({ img, title, teacher, lecture, date, progress }) => {
+const CourseCard = ({
+  img,
+  title,
+  teacher,
+  isLiveSession = false,
+  lecture,
+  date,
+  progress,
+  sessionTime,
+  registeredCount,
+  liveBadgeText,
+}) => {
+  const badgeText = isLiveSession ? liveBadgeText || "Live" : `${progress}% Complete`;
+
+  const buttonText = isLiveSession ? "Join Class" : "Continue Learning";
+
+  const liveTitleOnImage = isLiveSession ? title : "";
+
+  const badgePositionClass = isLiveSession ? "bottom-10 left-3 sm:left-4" : "top-3 right-3";
+
+  const badgeColorClass = isLiveSession
+    ? "bg-red-600 text-white"
+    : "bg-white text-black";
+
   return (
-    <div className="w-full bg-white rounded-xl shadow-md overflow-hidden relative">
+    <div className="w-full bg-white rounded-xl shadow-md overflow-hidden">
 
-      
-      <div className="absolute top-3 -right-7 -translate-x-1/2 bg-white px-3 py-1 rounded-full text-[12px] font-medium shadow">
-        {progress}% Complete
+      <div className="relative w-full">
+
+        <div
+          className={`
+            absolute ${badgePositionClass} z-20
+            px-2 py-1 sm:px-3 sm:py-1 
+            rounded-full text-[10px] sm:text-[12px] font-medium shadow
+            whitespace-nowrap
+            ${badgeColorClass}
+          `}
+        >
+          {badgeText}
+        </div>
+
+        {isLiveSession && (
+          <div className="absolute bottom-3 left-3 sm:bottom-4 sm:left-4 z-10 text-gray-100 font-inter text-sm sm:text-md font-medium">
+            {liveTitleOnImage}
+          </div>
+        )}
+
+        <Image
+          src={img}
+          width={1000}
+          height={150}
+          alt="course image"
+          className="
+            object-cover w-full 
+            h-40 sm:h-52 md:h-60 
+            rounded-t-xl
+          "
+        />
       </div>
 
-     
-      <Image
-        src={img}
-        width={355}
-        height={190}
-        alt="course image"
-        className="object-cover w-full h-50 rounded-t-xl"
-      />
+      <div className="p-3 sm:p-4">
 
-      <div className="p-4">
-        
-       
-        <h2 className="font-inter mt-4 text-[16px] font-semibold text-black leading-[24px]">
-          {title}
-        </h2>
+        {!isLiveSession && (
+          <h2 className="font-inter text-[14px] sm:text-[16px] font-semibold text-black leading-[20px] sm:leading-[24px]">
+            {title}
+          </h2>
+        )}
 
-     
-        <p className="font-inter text-gray-900 text-[14px] text-gray-600 mt-2">
-          {teacher}
+        <p className={`font-inter text-gray-600 text-[12px] sm:text-[14px] ${isLiveSession ? "mt-1" : "mt-2"}`}>
+          by {teacher}
         </p>
 
-        
-        <div className="w-full bg-gray-200 rounded-full h-[6px] mt-3">
-          <div
-            className="bg-[var(--color-accent-orange)] h-[6px] rounded-full"
-            style={{ width: `${progress}%` }}
-          ></div>
-        </div>
+        {/* LIVE CONTENT */}
+        {isLiveSession ? (
+          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mt-3 sm:mt-4 text-gray-700 gap-3 sm:gap-0">
 
-        
-        <div className="flex justify-between items-center mt-4 text-gray-700">
+            <div className="flex items-center gap-1 sm:gap-2">
+              <SlClock size={16} className="text-gray-500" />
+              <span className="font-inter text-[12px] sm:text-[14px]">
+                {sessionTime}
+              </span>
+            </div>
 
-          <div className="flex items-center gap-1">
-            <GoSingleSelect size={18} />
-            <span className="font-inter text-gray-600 text-[14px]">{lecture}</span>
+            <div className="flex items-center gap-1 sm:gap-2">
+              <FiUsers size={16} className="text-gray-500" />
+              <span className="font-inter text-[12px] sm:text-[14px]">
+                {registeredCount} registered
+              </span>
+            </div>
           </div>
+        ) : (
+          <>
+            <div className="w-full bg-gray-200 rounded-full h-[5px] sm:h-[6px] mt-3">
+              <div
+                className="bg-[var(--color-accent-orange)] h-full rounded-full"
+                style={{ width: `${progress}%` }}
+              />
+            </div>
 
-          <div className="flex items-center gap-1">
-            <TbStopwatch size={18} />
-            <span className="font-inter text-gray-600 text-[14px]">{date}</span>
-          </div>
-        </div>
+            {/* LECTURE + DATE ROW */}
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mt-3 sm:mt-4 text-gray-700 gap-3 sm:gap-0">
 
-      
-        <button className="w-full mt-5 bg-[var(--color-accent-orange)] text-white py-3 rounded-lg text-[14px] font-medium">
-          Continue Learning
+              <div className="flex items-center gap-1 sm:gap-2">
+                <GoSingleSelect size={16} className="text-gray-500" />
+                <span className="font-inter text-[12px] sm:text-[14px]">
+                  {lecture}
+                </span>
+              </div>
+
+              <div className="flex items-center gap-1 sm:gap-2">
+                <TbStopwatch size={16} className="text-gray-500" />
+                <span className="font-inter text-[12px] sm:text-[14px]">
+                  {date}
+                </span>
+              </div>
+
+            </div>
+          </>
+        )}
+
+        <button
+          className="
+            w-full mt-4 sm:mt-5 
+            text-white 
+            py-2 sm:py-3 
+            rounded-lg 
+            text-[12px] sm:text-[14px] font-medium
+            bg-[var(--color-accent-orange)]
+            flex justify-center items-center gap-2
+          "
+        >
+          {isLiveSession && <LuCalendar size={16} className="text-white" />}
+          {buttonText}
         </button>
       </div>
     </div>

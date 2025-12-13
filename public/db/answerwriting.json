@@ -1,0 +1,80 @@
+[
+  {
+    "type": "question",
+    "question": "Discuss the role of technology in improving agricultural productivity in India.",
+    "paper": "GS Paper 3",
+    "topic": "Agriculture",
+    "words": "250",
+    "time": "15",
+    "marks": "15",
+    "difficulty": "Medium",
+    "status": "Writing Pending",
+    "score": null,
+    "feedback": null
+  },
+  {
+    "type": "question",
+    "question": "Examine the constitutional provisions for the protection of minorities in India.",
+    "paper": "GS Paper 2",
+    "topic": "Polity",
+    "words": "250",
+    "time": "15",
+    "marks": "15",
+    "difficulty": "Medium",
+    "status": "Evaluated",
+    "score": "12/15",
+    "feedback": "Good structure and content. Include more recent examples and case laws."
+  },
+  {
+    "type": "question",
+    "question": "Analyze the impact of climate change on India's coastal regions.",
+    "paper": "GS Paper 3",
+    "topic": "Environment",
+    "words": "250",
+    "time": "15",
+    "marks": "15",
+    "difficulty": "Hard",
+    "status": "Under Evaluation",
+    "score": null,
+    "feedback": null
+  },
+  {
+    "type": "question",
+    "question": "What are the major challenges in implementing the National Education Policy 2020?",
+    "paper": "GS Paper 2",
+    "topic": "Education",
+    "words": "150",
+    "time": "10",
+    "marks": "10",
+    "difficulty": "Medium",
+    "status": "Writing Pending",
+    "score": null,
+    "feedback": null
+  },
+  {
+    "type": "question",
+    "question": "Discuss the significance of digital financial inclusion in rural development.",
+    "paper": "GS Paper 3",
+    "topic": "Economy",
+    "words": "250",
+    "time": "15",
+    "marks": "15",
+    "difficulty": "Easy",
+    "status": "Evaluated",
+    "score": "13.5/15",
+    "feedback": "Excellent analysis with relevant data. Could improve conclusion."
+  },
+  {
+    "type": "question",
+    "question": "Examine the role of women in India's freedom struggle.",
+    "paper": "GS Paper 1",
+    "topic": "History",
+    "words": "250",
+    "time": "15",
+    "marks": "15",
+    "difficulty": "Medium",
+    "status": "Writing Pending",
+    "score": null,
+    "feedback": null
+  }
+]

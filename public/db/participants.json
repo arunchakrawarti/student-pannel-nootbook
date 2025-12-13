@@ -1,0 +1,20 @@
+[
+  {
+    "type": "participants",
+    "userName": "Dr. Ramesh Kumar",
+    "role": "Instructor",
+    "isOnline": true
+  },
+  {
+    "type": "participants",
+    "userName": "Rahul Sharma",
+    "role": "Student",
+    "isOnline": false
+  },
+  {
+    "type": "participants",
+    "userName": "Priya Singh",
+    "role": "Student",
+    "isOnline": false
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "iconSrc": "/img/Test.png",
+    "value": "45",
+    "label": "Total Question",
+    "colorClass": "bg-[#DBEAFE]",
+    "imagePosition": "right",
+    "reverseText": true 
+  },
+  {
+    "id": 2,
+    "iconSrc": "/img/Test1.png",
+    "value": "18",
+    "label": "Attempted",
+    "colorClass": "bg-[#DCFCE7]",
+    "imagePosition": "right",
+    "reverseText": true
+  },
+  {
+    "id": 3,
+    "iconSrc": "/img/Test2.png",
+    "value": "12",
+    "label": "Evalute",
+    "colorClass": "bg-[#F3E8FF]",
+    "imagePosition": "right",
+    "reverseText": true
+  },
+  {
+    "id": 4,
+    "iconSrc": "/img/Test3.png",
+    "value": "11.8/15",
+    "label": "Avg Score",
+    "colorClass": "bg-red-50",
+    "imagePosition": "right",
+    "reverseText": true
+  }
+]

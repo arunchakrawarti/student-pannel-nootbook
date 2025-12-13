@@ -31,7 +31,7 @@ export const Button = ({
       type={type}
       disabled={props.disabled || loading}
       className={`
-        font-inter font-medium text-[14px] leading-[20px] tracking-[-0.15px] max-w-fit px-4 py-1 rounded-md
+        font-inter font-medium text-[14px] leading-[20px] tracking-[-0.15px] max-w-fit px-4 py-1 rounded-md cursor-pointer
         ${variantClasses[variant]}
         ${sizeClasses[size]}
         ${width}

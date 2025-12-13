@@ -1,4 +1,4 @@
-import CourseVideoPlayer from '@/components/pages/MyCourses/slug/syllabus/CourseVideoPlayer'
+import CourseVideoPlayer from '@/components/pages/myCourses/slug/syllabus/CourseVideoPlayer'
 import MainLayout from '@/components/templates/MainLayout'
 import React from 'react'
 
