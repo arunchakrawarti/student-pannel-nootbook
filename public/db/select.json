@@ -1,0 +1,74 @@
+[
+  {
+    "title": "History",
+    "iconSrc": "/img/history.png",
+    "accuracyBadge": "85% Accuracy",
+    "questions": 80,
+    "attempted": 60,
+    "accuracy": "75%",
+    "progress": 75,
+    "iconBgColor": "bg-orange-100",
+    "badgeBg": "bg-green-100",
+    "badgeText": "text-green-700"
+  },
+  {
+    "title": "Geography",
+    "iconSrc": "/img/geography.png",
+    "accuracyBadge": "78% Accuracy",
+    "questions": 70,
+    "attempted": 48,
+    "accuracy": "68%",
+    "progress": 68,
+    "iconBgColor": "bg-blue-100",
+    "badgeBg": "bg-green-100",
+    "badgeText": "text-green-700"
+  },
+  {
+    "title": "Polity",
+    "iconSrc": "/img/polity.png",
+    "accuracyBadge": "82% Accuracy",
+    "questions": 90,
+    "attempted": 72,
+    "accuracy": "80%",
+    "progress": 80,
+    "iconBgColor": "bg-purple-100",
+    "badgeBg": "bg-green-100",
+    "badgeText": "text-green-700"
+  },
+  {
+    "title": "Economy",
+    "iconSrc": "/img/economy.png",
+    "accuracyBadge": "74% Accuracy",
+    "questions": 65,
+    "attempted": 40,
+    "accuracy": "62%",
+    "progress": 62,
+    "iconBgColor": "bg-yellow-100",
+    "badgeBg": "bg-green-100",
+    "badgeText": "text-green-700"
+  },
+  {
+    "title": "Science & Tech",
+    "iconSrc": "/img/science.png",
+    "accuracyBadge": "88% Accuracy",
+    "questions": 100,
+    "attempted": 85,
+    "accuracy": "85%",
+    "progress": 85,
+    "iconBgColor": "bg-indigo-100",
+    "badgeBg": "bg-green-100",
+    "badgeText": "text-green-700"
+  },
+  {
+    "title": "Environment",
+    "iconSrc": "/img/environment.png",
+    "accuracyBadge": "69% Accuracy",
+    "questions": 60,
+    "attempted": 32,
+    "accuracy": "58%",
+    "progress": 58,
+    "iconBgColor": "bg-green-100",
+    "badgeBg": "bg-green-100",
+    "badgeText": "text-green-700"
+  }
+]

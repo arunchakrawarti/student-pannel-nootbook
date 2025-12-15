@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Psychologist",
+  title: "Student Pannel",
   description: "Less Price Top Bidder",
 };
 

@@ -1,4 +1,4 @@
-import Support from '@/components/pages/HelpSupport/Support'
+import Index from '@/components/pages/HelpSupport/Index'
 import MainLayout from '@/components/templates/MainLayout'
 import React from 'react'
 
@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div>
       <MainLayout>
-        <Support/>
+        <Index/>
       </MainLayout>
     </div>
   )

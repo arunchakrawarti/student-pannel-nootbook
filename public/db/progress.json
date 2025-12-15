@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "iconSrc": "/img/Pro1.png",
+    "value": "42.5h",
+    "label": "Study Hours",
+    "changeText": "+8%",
+    "layout": "column",
+    "colorClass": "bg-blue-50"
+  },
+  {
+    "id": 2,
+    "iconSrc": "/img/Pro.png",
+    "value": "78%",
+    "label": "Avg Score",
+    "changeText": "+12%",
+    "layout": "column",
+    "colorClass": "bg-green-50"
+  },
+  {
+    "id": 3,
+    "iconSrc": "/img/Pro2.png",
+    "value": "87%",
+    "label": "Percentile",
+    "changeText": "+5",
+    "layout": "column",
+    "colorClass": "bg-purple-50"
+  }
+]

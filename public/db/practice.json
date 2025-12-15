@@ -1,0 +1,38 @@
+[
+  {
+    "iconSrc": "/img/Practice/pra3.png",
+    "value": "2,380",
+    "label": "Total Questions",
+    "colorClass": "bg-blue-100",
+    "imagePosition": "right",
+    "reverseText": false,
+    "isFullColorCard": false
+  },
+  {
+    "iconSrc": "/img/Practice/pra2.png",
+    "value": "980",
+    "label": "Attempted",
+    "colorClass": "bg-green-100",
+    "imagePosition": "right",
+    "reverseText": false,
+    "isFullColorCard": false
+  },
+  {
+    "iconSrc": "/img/Practice/pra1.png",
+    "value": "75%",
+    "label": "Avg Accuracy",
+    "colorClass": "bg-purple-100",
+    "imagePosition": "right",
+    "reverseText": false,
+    "isFullColorCard": false
+  },
+  {
+    "iconSrc": "/img/Practice/pra.png",
+    "value": "42h",
+    "label": "Time Spent",
+    "colorClass": "bg-red-100",
+    "imagePosition": "right",
+    "reverseText": false,
+    "isFullColorCard": false
+  }
+]

@@ -1,10 +1,13 @@
 import React from 'react'
-import Practice from './practice'
+import Practices from './Practices'
+import SubjectDetail from './SubjectDetail'
+
 
 const Index = () => {
   return (
     <div>
-      <Practice/>
+      <Practices/>
+      <SubjectDetail/>
     </div>
   )
 }

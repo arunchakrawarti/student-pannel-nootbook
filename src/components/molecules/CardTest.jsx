@@ -77,7 +77,7 @@ const CardTest = ({ title, paper, completionStatus, stats = [], resultStats = []
         </div>
       )}
 
-     <Link href='/result'>
+     <Link href={`test-series/$[testId]/result`}>
       <button className={buttonClass}>{buttonText}</button>
      </Link>
     </div>

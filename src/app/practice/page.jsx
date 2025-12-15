@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div>
       <MainLayout>
-        <Index/>
+       <Index/>
       </MainLayout>
     </div>
   )

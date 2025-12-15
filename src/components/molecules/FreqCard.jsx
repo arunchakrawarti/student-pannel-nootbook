@@ -10,7 +10,7 @@ const FreqCard = ({ item, question, answer }) => {
         onClick={() => setOpen(!open)}
       >
         <div className="flex gap-3 items-center">
-          <span className="container-color  px-2 py-1 text-[12px] font-medium ">
+          <span className="bg-[var(--color-accent-blue)] px-2 py-1 rounded-md text-white text-[12px] font-medium ">
             {item}
           </span>
           <p className="font-inter font-normal text-[16px] leading-[24px] tracking-[-0.31px]">

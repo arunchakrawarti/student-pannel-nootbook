@@ -1,23 +1,29 @@
 [
   {
     "id": 1,
-    "img": "/img/Icon.png",
-    "percent": "+12%",
-    "value": "42.5",
-    "title": "Study Hours"
+    "iconSrc": "/img/Icon.png",
+    "value": "42.5h",
+    "label": "Study Hours",
+    "changeText": "+8%",
+    "layout": "column",
+    "colorClass": "bg-red-50"
   },
   {
     "id": 2,
-    "img": "/img/icon1.png",
-    "percent": "+3",
-    "value": "23",
-    "title": "Tests Attempted"
+    "iconSrc": "/img/Icon1.png",
+    "value": "78%",
+    "label": "Avg Score",
+    "changeText": "+12%",
+    "layout": "column",
+    "colorClass": "bg-red-50"
   },
   {
     "id": 3,
-    "img": "/img/icon2.png",
-    "percent": "+5%",
-    "value": "68%",
-    "title": "Avg. Score"
+    "iconSrc": "/img/Icon2.png",
+    "value": "87%",
+    "label": "Percentile",
+    "changeText": "+5",
+    "layout": "column",
+    "colorClass": "bg-red-50"
   }
 ]

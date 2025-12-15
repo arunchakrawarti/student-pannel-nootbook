@@ -1,0 +1,34 @@
+[
+  {
+    "type": "practice",
+    "title": "Ancient India",
+    "totalQuestions": 120,
+    "completed": 45,
+    "progress": 38,
+    "difficulty": "Medium"
+  },
+  {
+    "type": "practice",
+    "title": "Medieval India",
+    "totalQuestions": 100,
+    "completed": 38,
+    "progress": 38,
+    "difficulty": "Medium"
+  },
+  {
+    "type": "practice",
+    "title": "Modern India",
+    "totalQuestions": 150,
+    "completed": 67,
+    "progress": 45,
+    "difficulty": "Hard"
+  },
+  {
+    "type": "practice",
+    "title": "Art & Culture",
+    "totalQuestions": 80,
+    "completed": 30,
+    "progress": 38,
+    "difficulty": "Easy"
+  }
+]

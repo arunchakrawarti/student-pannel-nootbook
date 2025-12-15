@@ -1,4 +1,4 @@
-import Test from '@/components/pages/TestSeries/Test'
+import Index from '@/components/pages/testseries/Index'
 import MainLayout from '@/components/templates/MainLayout'
 import React from 'react'
 
@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div>
       <MainLayout>
-        <Test/>
+        <Index/>
       </MainLayout>
     </div>
   )
