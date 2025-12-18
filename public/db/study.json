@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "label": "Study 40 hours",
+    "value": 32.8,
+    "total": 40,
+    "progress": 82,
+    "iconSrc": "/img/study.png"
+  },
+  {
+    "id": 2,
+    "label": "Complete 5 tests",
+    "value": 4,
+    "total": 5,
+    "progress": 80,
+    "iconSrc": "/img/tests.png"
+  },
+  {
+    "id": 3,
+    "label": "Watch 10 lectures",
+    "value": 9,
+    "total": 10,
+    "progress": 90,
+    "iconSrc": "/img/lectures.png"
+  },
+  {
+    "id": 4,
+    "label": "Solve 500 questions",
+    "value": 375,
+    "total": 500,
+    "progress": 75,
+    "iconSrc": "/img/questions.png"
+  }
+]

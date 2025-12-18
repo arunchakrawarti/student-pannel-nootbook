@@ -1,19 +1,22 @@
 import React from "react";
 import Card3 from "../../molecules/Card3";
 import announ from "../../../../public/db/announ.json";
+import { IoBookOutline } from "react-icons/io5";
+
 import Image from "next/image";
 
 const Announcement = () => {
   return (
-    <div className="p-4 mt-5 bg-white rounded-lg border border-gray-200">
-      <div className="flex gap-3">
-        <Image src="/img/Icona.png" height={20} width={20} alt="icona.png" />
-        <h2 className="font-inter font-normal text-[16px] leading-[16px] tracking-[-0.31px]">
+    <div className="p-8 mt-5 bg-white rounded-2xl border border-gray-200">
+      <div className="flex items-center gap-3">
+        <IoBookOutline  size={24} className="text-[var(--color-accent-orange)]"/>
+
+        <h2 className="font-inter font-normal text-[20px]">
           Announcements
         </h2>
       </div>
 
-      <div className="p-2">
+      <div className="p-4">
         {announ.map((item) => (
           <Card3
             key={item.id}

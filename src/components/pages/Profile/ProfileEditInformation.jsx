@@ -4,7 +4,8 @@ import input from "../../../../public/db/input.json";
 import React from "react";
 import { RiSave3Line } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
-import { Button } from "@/components/comman/Button";
+import Button from "@/components/comman/Button";
+
 
 const ProfileEditInformation = () => {
   return (

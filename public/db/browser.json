@@ -1,44 +1,38 @@
 [
   {
-    "id": 1,
-    "title": "Indian Polity",
-    "file": "12 files",
-    "iconBgColor": "bg-[#E0F2FE]",
-    "iconColor": "text-[#0284C7]"
+    "label": "Syllabus",
+    "value": "12 files",
+    "colorClass": "bg-blue-50",
+    "iconColor": "text-blue-600"
   },
   {
-    "id": 2,
-    "title": "Modern History",
-    "file": "10 files",
-    "iconBgColor": "bg-[#F3E8FF]",
-    "iconColor": "text-[#9333EA]"
+    "label": "NCERT Books",
+    "value": "10 files",
+    "colorClass": "bg-purple-50",
+    "iconColor": "text-purple-600"
   },
   {
-    "id": 3,
-    "title": "Geography",
-    "file": "8 files",
-    "iconBgColor": "bg-[#DCFCE7]",
-    "iconColor": "text-[#16A34A]"
+    "label": "Previous Year Question",
+    "value": "8 files",
+    "colorClass": "bg-green-50",
+    "iconColor": "text-green-600"
   },
   {
-    "id": 4,
-    "title": "Economy",
-    "file": "9 files",
-    "iconBgColor": "bg-[#FFEDD5]",
-    "iconColor": "text-[#EA580C]"
+    "label": "Current Affairs",
+    "value": "9 files",
+    "colorClass": "bg-orange-50",
+    "iconColor": "text-orange-500"
   },
   {
-    "id": 5,
-    "title": "Science & Tech",
-    "file": "6 files",
-    "iconBgColor": "bg-[#FFE4E6]",
-    "iconColor": "text-[#E11D48]"
+    "label": "Important Reports",
+    "value": "8 files",
+    "colorClass": "bg-red-50",
+    "iconColor": "text-red-600"
   },
   {
-    "id": 6,
-    "title": "Current Affairs",
-    "file": "15 files",
-    "iconBgColor": "bg-[#FCE7F3]",
-    "iconColor": "text-[#DB2777]"
+    "label": "Mind Map",
+    "value": "15 files",
+    "colorClass": "bg-pink-50",
+    "iconColor": "text-pink-600"
   }
 ]

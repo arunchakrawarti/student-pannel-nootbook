@@ -1,38 +1,23 @@
 import React from "react";
 import CardPrelims from "../../molecules/CardPrelims";
-import CardTest from "@/components/molecules/CardTest";
 import mock from "../../../../public/db/mock.json";
-import complete from "../../../../public/db/complete.json"
 
 function PrelimsMockTest() {
   return (
-    <div className="w-full flex flex-col lg:flex-row mt-5 justify-between gap-5">
-
-     
-      <div className="space-y-4 w-full lg:w-1/2">
-        {mock.map((test, index) => (
-          <CardPrelims
+    <div className="w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mt-5 gap-5">
+      {mock.map((test, index) => (
+        <CardPrelims 
             key={index}
             title={test.title}
             paper={test.paper}
-            days={test.days}
-            stats={test.stats}
-          />
-        ))}
-      </div>
-      <div className="space-y-4 w-full lg:w-1/2">
-        {complete.map((test, index) => (
-          <CardTest
-            key={index}
-            title={test.title}
-            paper={test.paper}
-            completionStatus={test.completionStatus}
+            status={test.status}
+            type={test.type}
+            tagText={test.tagText}
+            tagColor={test.tagColor}
             stats={test.stats}
             resultStats={test.resultStats}
           />
-        ))}
-      </div>
-
+      ))}
     </div>
   );
 }

@@ -1,23 +1,11 @@
 import React from "react";
-
 import card from "../../../../public/db/card.json";
 import Card9 from "@/components/molecules/Card9";
 
 const Cardrow = () => {
   return (
-    // <div className="grid mt-3 grid-cols-1 md:grid-cols-3 gap-4">
-    //   {card.map((item) => (
-    //     <Card
-    //       key={item.id}
-    //       img={item.img}
-    //       percent={item.percent}
-    //       value={item.value}
-    //       title={item.title}
-    //     />
-    //   ))}
-    // </div>
-    
-    <div className="grid grid-cols-1 mt-4  md:grud-cols-2 lg:grid-cols-3 gap-4">
+
+  <div className="grid grid-cols-1 mt-4  md:grud-cols-2 lg:grid-cols-3 gap-4">
       {card.map((item) => (
         <Card9
           key={item.id}

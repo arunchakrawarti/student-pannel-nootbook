@@ -1,9 +1,13 @@
 import React from "react";
-import Card1 from "../../molecules/Card1";
+
 import data from "../../../../public/db/data.json";
-import Card2 from "../../molecules/Card2";
+import { HiOutlineDocumentCheck } from "react-icons/hi2";
 import Image from "next/image";
 import Link from "next/link";
+import TestSeriesCard from "@/components/molecules/TestSeriesCard";
+import { TfiCup } from "react-icons/tfi";
+
+import TestResultCard from "@/components/molecules/TestResultCard";
 
 const cardData = [
   {
@@ -27,16 +31,17 @@ const Pending = () => {
     <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 mt-5">
       
      
-      <div className="flex flex-col gap-4 bg-white border border-gray-300 rounded-md p-4">
+      <div className="flex flex-col gap-4 bg-white border border-gray-200 rounded-2xl p-6">
         <div className="flex gap-2 items-center">
-          <Image src="/img/icon1.png" height={20} width={20} alt="icon.png" />
-          <p className="font-inter font-normal text-[16px] leading-[16px] tracking-[-0.31px]">
+          <HiOutlineDocumentCheck  size={24} className="text-[var(--color-accent-orange)]"/>
+
+          <p className="font-inter font-normal text-[19px]  tracking-[-0.31px]">
             Pending Tests
           </p>
         </div>
 
         {data.map((item) => (
-          <Card1
+          <TestSeriesCard
             key={item.id}
             title={item.title}
             description={item.description}
@@ -46,16 +51,17 @@ const Pending = () => {
         ))}
       </div>
       
-      <div className="flex flex-col gap-4 bg-white border border-gray-300 rounded-md p-4">
-        <div className="flex gap-2 items-center">
-          <Image src="/img/icon2.png" height={20} width={20} alt="icon.png" />
-          <p className="font-inter font-normal text-[16px] leading-[16px] tracking-[-0.31px]">
+      <div className="flex flex-col gap-4 bg-white border border-gray-200 rounded-2xl p-6">
+        <div className="flex mb-4 gap-3 items-center">
+          <TfiCup size={20} className="text-[var(--color-accent-orange)]" />
+
+          <p className="font-inter font-normal text-[19px]   tracking-[-0.31px]">
             Recent Results
           </p>
         </div>
 
         {cardData.map((item) => (
-          <Card2
+          <TestResultCard
             key={item.id}
             title={item.title}
             score={item.score}
@@ -64,7 +70,7 @@ const Pending = () => {
           />
         ))}
 
-        <div className="text-center border border-gray-500 rounded-md py-2">
+        <div className="text-center mx-3 border border-gray-500 text-[#16344E] rounded-lg py-2 font-inter font-medium text-[20px]">
           <Link href='test-series'>
           <button>View All Result</button>
           </Link>

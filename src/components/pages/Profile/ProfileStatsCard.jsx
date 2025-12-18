@@ -1,19 +1,32 @@
-import CardScore from "@/components/molecules/CardScore";
+
+import Card9 from "@/components/molecules/Card9";
 import React from "react";
 
 const ProfileStatsCard = () => {
+  const statsData = [
+    { value: "4", label: "Courses Enrolled" },
+    { value: "23", label: "Tests Attempted" },
+    { value: "42.5", label: "Study Hours" },
+    { value: "#145", label: "Rank" },
+  ];
   return (
     <div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  mt-10 pb-10  gap-5">
-        <CardScore no="4" title="Courses Enrolled" />
-        <CardScore no="23" title="Tests Attempted" />
-        <CardScore no="42.5" title="Study Hours" />
-        <CardScore no="#145" title="Rank" />
+      <div className="grid grid-cols-1 mt-5 md:grid-cols-4 gap-4">
+        {statsData.map((stat, index) => (
+          <Card9
+            key={index}
+            variant="stat"
+            value={stat.value}
+            label={stat.label}
+            valueColor="text-[#1e293b]" 
+            colorClass="bg-white border-gray-100"
+          />
+        ))}
       </div>
        <div
       className="
         flex flex-wrap 
-        gap-3 sm:gap-5 md:gap-10 
+        gap-3 mt-4 sm:gap-5 md:gap-10 
         justify-center md:justify-start
       "
     >

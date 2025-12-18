@@ -3,8 +3,8 @@ import Card3 from "@/components/molecules/Card3";
 
 const VideoLecture = () => {
   return (
-    <div className="p-4 bg-white rounded-md shadow mx-4 mt-4">
-      <h1 className="font-inter font-normal text-[16px] leading-[16px] tracking-[-0.31px]">
+    <div className="p-4 bg-white  rounded-2xl mt-8">
+      <h1 className="font-inter font-normal text-[19px] tracking-[-0.31px]">
         Video Lectures
       </h1>
 

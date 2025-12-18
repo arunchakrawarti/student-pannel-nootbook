@@ -17,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable}`}>
-      <body>
+      <body className="bg-[#F9FAFB]">
         <Toaster position="top-right" reverseOrder={false} />
         {children}
       </body>

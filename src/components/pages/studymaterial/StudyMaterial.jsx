@@ -1,8 +1,8 @@
 import React from "react";
 import { LuFilter } from "react-icons/lu";
 import { IoSearchOutline } from "react-icons/io5";
-import Card4 from "@/components/molecules/Card4";
 import browser from "../../../../public/db/browser.json";
+import Card9 from "@/components/molecules/Card9";
 import Link from "next/link";
 
 const StudyMaterial = () => {
@@ -43,19 +43,21 @@ const StudyMaterial = () => {
         Browse by Subject
       </h1>
 
-      <div className="grid mt-3 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-4 ">
-        {browser.map((item) => (
-          
-            <Card4
-              key={item.id}
-              title={item.title}
-              file={item.file}
-              iconBgColor={item.iconBgColor}
-              iconColor={item.iconColor}
-            />
-         
-        ))}
-      </div>
+      <div className="grid grid-cols-2
+       md:grid-cols-3 lg:grid-cols-6  gap-4 mt-3">
+  {browser.map((item, index) => (
+    <Link href="study-material/subjectslug">
+    <Card9
+      key={index}
+      variant="folder"
+      label={item.label}
+      value={item.value}
+      colorClass={item.colorClass}
+      iconColor={item.iconColor}
+    />
+    </Link>
+  ))}
+</div>
     </div>
 </div>
 

@@ -2,27 +2,27 @@
   {
     "id": 1,
     "iconSrc": "/img/Icon.png",
-    "value": "42.5h",
+    "value": "42.5",
     "label": "Study Hours",
-    "changeText": "+8%",
+    "changeText": "+12%",
     "layout": "column",
     "colorClass": "bg-red-50"
   },
   {
     "id": 2,
     "iconSrc": "/img/Icon1.png",
-    "value": "78%",
-    "label": "Avg Score",
-    "changeText": "+12%",
+    "value": "23",
+    "label": "Tests Attempted",
+    "changeText": "3",
     "layout": "column",
     "colorClass": "bg-red-50"
   },
   {
     "id": 3,
     "iconSrc": "/img/Icon2.png",
-    "value": "87%",
-    "label": "Percentile",
-    "changeText": "+5",
+    "value": "68%",
+    "label": "Avg. Score",
+    "changeText": "+5%",
     "layout": "column",
     "colorClass": "bg-red-50"
   }

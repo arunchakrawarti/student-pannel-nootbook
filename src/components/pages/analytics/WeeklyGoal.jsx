@@ -1,10 +1,11 @@
 import React from "react";
 import announ1 from "../../../../public/db/announ1.json";
 import Image from "next/image";
-import SubjectCard2 from "../../molecules/SubjectCard2";
+
 import { Target } from "lucide-react";
-import weekly from "../../../../public/db/weekly.json";
+import study from "../../../../public/db/study.json";
 import Card12 from "@/components/molecules/Card12";
+import Card8 from "@/components/molecules/Card8";
 
 
 const WeeklyGoal = () => {
@@ -17,17 +18,22 @@ const WeeklyGoal = () => {
           <h2 className="text-xl font-bold text-gray-800">Weekly Goals</h2>
         </div>
 
-        <div className="space-y-4">
-          {weekly.map((goal, index) => (
-            <SubjectCard2
-              key={index}
-              img={goal.img}
-              subject={goal.subject}
-              completed={goal.completed}
-              total={goal.total}
-            />
-          ))}
-        </div>
+      <div className="space-y-4">
+  {study.map((item) => (
+    <Card8
+      key={item.id}
+      type="practice"
+      showImageProgress={true}
+      imageProgressSrc={item.iconSrc}
+      data={{
+        title: item.label,
+        totalQuestions: item.total,
+        completed: item.value,
+        progress: item.progress
+      }}
+    />
+  ))}
+</div>
       </div>
 
       {/* Recent Activity */}

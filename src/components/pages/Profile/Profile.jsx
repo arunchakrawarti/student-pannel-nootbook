@@ -3,7 +3,8 @@ import { IoCallOutline } from "react-icons/io5";
 import { FiEdit } from "react-icons/fi";
 import React from "react";
 import Link from "next/link";
-import { Button } from "@/components/comman/Button";
+import Button from "@/components/comman/Button";
+
 
 const Profile = () => {
   return (
@@ -70,7 +71,7 @@ const Profile = () => {
             </div>
           </div>
 
-          <Link href="/edit-profile">
+          <Link href="/profile/acedemic">
             <Button
               className=" max-w-full
               flex items-center justify-center gap-2

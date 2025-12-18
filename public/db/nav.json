@@ -12,13 +12,14 @@
     },
     {
       "icon": "ri-dashboard-line",
-      "route": "/",
+      "route": "/live-classes",
       "label": "Live Classes"
     },
     {
       "icon": "ri-book-read-line",
       "route": "/study-material",
       "label": "Study Material"
+      
     },
     {
       "icon": "ri-currency-line",
@@ -27,17 +28,17 @@
     },
     {
       "icon": "ri-currency-line",
-      "route": "/test-series",
+      "route": "/answer-writing",
       "label": "Answer Writing"
     },
      {
       "icon": "ri-currency-line",
-      "route": "/test-series",
+      "route": "/practice",
       "label": "Practice"
     },
     {
       "icon": "ri-currency-line",
-      "route": "/test-series",
+      "route": "/marketplace/courses",
       "label": "Marketplace"
     },
     {

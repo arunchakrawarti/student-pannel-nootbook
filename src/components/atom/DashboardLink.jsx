@@ -29,19 +29,19 @@ const DashboardLink = ({
           onClick={toggleSubMenu}
           className={`${
             active
-              ? "container text-primary"
+              ? "bg-[var(--color-accent-orange)]"
               : "text-secondary bg-transparent"
-          } hover:bg-[#e09379] hover:text-primary flex w-full flex-row items-center justify-between rounded-md px-1 py-2.5 transition-all duration-200`}
+          } hover:bg-[#e09379] hover:text-primary flex w-full flex-row items-center justify-between rounded-md px-1 py-3 transition-all duration-200`}
         >
           <span className="text-md flex items-center gap-1.5">
             
              <span
-              className={`ml-2 ${label === "Log out" ? "text-red-600" : "text-white"}`}
+              className={`ml-2 ${label === "Log out" ? "text-red-600" : "text-gray-300"}`}
             >
             <i className={`${heroIcon} ri-lg`}></i>
             </span>
             <span
-              className={`ml-2 ${label === "Log out" ? "text-red-600" : "text-white"}`}
+              className={`ml-2 ${label === "Log out" ? "text-red-600" : "text-gray-300"}`}
             >
               {label}
             </span>

@@ -38,9 +38,9 @@ const CourseCard = ({
         <div
           className={`
             absolute ${badgePositionClass} z-20
-            px-2 py-1 sm:px-3 sm:py-1 
-            rounded-full text-[10px] sm:text-[12px] font-medium shadow
-            whitespace-nowrap
+            px-2 py-1 sm:px-4 sm:py-1
+            rounded-full text-[10px] sm:text-[14px] shadow
+            whitespace-nowrap font-inter font-normal 
             ${badgeColorClass}
           `}
         >
@@ -55,12 +55,12 @@ const CourseCard = ({
 
         <Image
           src={img}
-          width={1000}
+          width={100}
           height={150}
           alt="course image"
           className="
             object-cover w-full 
-            h-40 sm:h-52 md:h-60 
+            h-40 sm:h-52 md:h-50 
             rounded-t-xl
           "
         />
@@ -69,7 +69,7 @@ const CourseCard = ({
       <div className="p-3 sm:p-4">
 
         {!isLiveSession && (
-          <h2 className="font-inter text-[14px] sm:text-[16px] font-semibold text-black leading-[20px] sm:leading-[24px]">
+          <h2 className="font-inter font-normal text-[18px] mt-5 tracking-[-0.31px] text-gray-800">
             {title}
           </h2>
         )}
@@ -77,8 +77,6 @@ const CourseCard = ({
         <p className={`font-inter text-gray-600 text-[12px] sm:text-[14px] ${isLiveSession ? "mt-1" : "mt-2"}`}>
           by {teacher}
         </p>
-
-        {/* LIVE CONTENT */}
         {isLiveSession ? (
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mt-3 sm:mt-4 text-gray-700 gap-3 sm:gap-0">
 
@@ -104,20 +102,19 @@ const CourseCard = ({
                 style={{ width: `${progress}%` }}
               />
             </div>
-
-            {/* LECTURE + DATE ROW */}
+            
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mt-3 sm:mt-4 text-gray-700 gap-3 sm:gap-0">
 
               <div className="flex items-center gap-1 sm:gap-2">
                 <GoSingleSelect size={16} className="text-gray-500" />
-                <span className="font-inter text-[12px] sm:text-[14px]">
+                <span className="font-inter text-[12px] font-normal sm:text-[14px]">
                   {lecture}
                 </span>
               </div>
 
               <div className="flex items-center gap-1 sm:gap-2">
-                <TbStopwatch size={16} className="text-gray-500" />
-                <span className="font-inter text-[12px] sm:text-[14px]">
+                <TbStopwatch size={20} className="text-gray-500" />
+                <span className="font-inter text-[12px] font-normal sm:text-[14px]">
                   {date}
                 </span>
               </div>
@@ -130,7 +127,7 @@ const CourseCard = ({
           className="
             w-full mt-4 sm:mt-5 
             text-white 
-            py-2 sm:py-3 
+            py-2 sm:py-3 cursor-pointer
             rounded-lg 
             text-[12px] sm:text-[14px] font-medium
             bg-[var(--color-accent-orange)]

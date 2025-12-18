@@ -1,0 +1,9 @@
+
+{
+  "data": [
+    { "route": "/marketplace/courses/#dummy", "label": "Courses", "type": "courses" },
+    { "route": "/marketplace/live-classes/#dummy", "label": "Live Classes", "type": "live-classes" },
+    { "route": "/marketplace/study-material/#dummy", "label": "Study Materials", "type": "study-material" },
+    { "route": "/marketplace/test-series/#dummy", "label": "Test Series", "type": "test-series" }
+  ]
+}

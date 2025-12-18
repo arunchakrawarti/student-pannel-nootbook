@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "value": "0",
+    "label": "Correct",
+    "iconSrc": "/img/pathicon.png",
+    "valueColor": "text-green-600",
+    "colorClass": "bg-green-50 border-green-200"
+  },
+  {
+    "id": 2,
+    "value": "1",
+    "label": "Incorrect",
+    "iconSrc": "/img/com.png",
+    "valueColor": "text-red-600",
+    "colorClass": "bg-red-50 border-red-200"
+  },
+  {
+    "id": 3,
+    "value": "4",
+    "label": "Skipped",
+    "iconSrc": "/img/comm.png",
+    "valueColor": "text-gray-700",
+    "colorClass": "bg-gray-50 border-gray-200"
+  }
+]

@@ -33,26 +33,27 @@ const SideBar = ({ isSidebarOpen, setIsSidebarOpen }) => {
       <div
         className={`fixed inset-y-0 left-0 z-30 transform bg-[var(--color-accent-blue)] transition-transform duration-300 md:relative md:translate-x-0 ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-        } w-80 md:w-80 xl:w-80`}
+        } w-80 md:w-80 xl:w-79`}
       >
         <nav className="flex h-full flex-col gap-2 py-4 md:gap-7">
-          <div className="flex gap-3 px-8 sm:mt-5 md:mt-5">
-            <h1 className="bg-white text-[1.4rem] font-bold rounded-full md:text-[2.5rem]">
+          <div className="flex h-auto max-w-full gap-3 px-8 sm:mt-5 md:mt-5">
+            <h1 className="bg-white font-bold rounded-full">
               <Image
                 src="/img/notebook.png"
                 height={64}
-                width={78}
+                width={100}
                 alt="logo"
+                className="h-22 w-80"
               />
             </h1>
 
-            <h1 className="font-inter text-[24px] font-medium leading-[100%] tracking-[0.09px] align-middle text-white">
+            <h1 className="font-inter font-medium text-[29px] leading-[1] tracking-[0.07px] mt-4 align-middle text-white">
               Student’s Dashboard
             </h1>
           </div>
 
-          <ul className="scrollbar-hidden flex h-full w-full flex-col gap-2 overflow-y-scroll px-6 text-lg md:mt-5 sm:mt-7 md:text-xl">
-            <div className="flex w-full flex-col gap-2">
+          <ul className="scrollbar-hidden flex h-full w-full flex-col gap-2 overflow-y-scroll px-3">
+            <div className="flex w-full flex-col gap-2 font-inter text-[18px]">
               {navigation.map((item, index) => {
                 const { route, label, icon, children } = item;
                 return (

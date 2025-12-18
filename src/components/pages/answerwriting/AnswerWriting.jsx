@@ -2,6 +2,7 @@ import React from 'react'
 import { PiHandDepositLight } from "react-icons/pi";
 import answer from "../../../../public/db/answer.json"
 import Card9 from '@/components/molecules/Card9';
+import Link from 'next/link';
 
 const AnswerWriting = () => {
   return (
@@ -25,6 +26,7 @@ const AnswerWriting = () => {
       </div>
 <div className="grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 lg:grid-cols-4">
       {answer.map((item) => (
+        <Link href="/">
         <Card9
           key={item.id}
           iconSrc={item.iconSrc}
@@ -34,6 +36,7 @@ const AnswerWriting = () => {
           imagePosition={item.imagePosition} 
           reverseText={item.reverseText}    
         />
+        </Link>
       ))}
     </div>
     </div>
