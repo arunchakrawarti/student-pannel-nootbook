@@ -210,7 +210,7 @@ const Card3 = ({
         <div className="flex items-start gap-3 flex-1 min-w-0">
           
           {img && (
-            <div className="h-10 w-10 flex items-center justify-center rounded-md bg-[#FFEDE5] shrink-0">
+            <div className="h-10 w-10 flex items-center justify-center rounded-md mt-4 bg-[#FFEDE5] shrink-0">
               <Image src={img} height={22} width={22} alt="icon" />
             </div>
           )}
@@ -244,7 +244,7 @@ const Card3 = ({
 
           {buttonType === "download" && (
             <button className="flex items-center gap-1 text-[#1E293B]">
-              <MdOutlineFileDownload className="text-[18px]" />
+              <MdOutlineFileDownload className="text-[28px]" />
             </button>
           )}
 

@@ -225,6 +225,8 @@
 
 
 
+
+
 import Image from "next/image";
 import React from "react";
 import { LuDownload, LuEye, LuBookOpen, LuCircleCheck } from "react-icons/lu";
@@ -271,15 +273,15 @@ const Card8 = ({ data, type, showImageProgress }) => {
   } = data;
 
   return (
-    <div className="w-full border border-gray-200 bg-white rounded-lg p-4 flex flex-col sm:flex-row justify-between gap-4">
+    <div className="w-full border border-gray-100 bg-white rounded-2xl p-6 flex flex-col sm:flex-row justify-between gap-4">
       <div className="flex gap-3 w-full">
       
         {!showImageProgress && (
           <div
-            className={`w-12 h-12 flex items-center justify-center rounded-md shrink-0 relative
+            className={`w-16 h-16 flex items-center justify-center rounded-md shrink-0 top-2 relative
             ${
               type === "material"
-                ? "bg-[#EFF6FF] border border-[#BEDBFF]"
+                ? "bg-[#EFF6FF] border-3 border-[#BEDBFF]"
                 : type === "question"
                 ? "bg-[#FEE2E2] border border-[#FCA5A5]"
                 : "bg-[#FFF7ED] border border-[#FED7AA]"
@@ -289,10 +291,10 @@ const Card8 = ({ data, type, showImageProgress }) => {
               <Image src={iconSrc || "/img/Material.png"} width={32} height={32} alt="icon" />
             )}
             {(type === "question" || type === "practice") && (
-              <LuBookOpen size={22} className="text-[#FF6029]" />
+              <LuBookOpen size={22} className="text-[var(--color-accent-orange)]" />
             )}
             {type === "material" && badgeText && (
-              <span className="absolute -top-2 -right-2 text-[10px] px-2 py-[2px] bg-[#FF6029] text-white rounded-full">
+              <span className="absolute -top-2 -right-2 text-[10px] px-2 py-[2px] bg-[var(--color-accent-orange)] text-white rounded-full">
                 {badgeText}
               </span>
             )}
@@ -308,7 +310,7 @@ const Card8 = ({ data, type, showImageProgress }) => {
                   className={progress >= 75 ? "text-[#10B981]" : "text-[#9CA3AF]"} 
                 />
               )}
-              <h2 className="text-[16px] font-medium text-[#111827]">
+              <h2 className="text-[19px] font-medium text-[#111827]">
                 {type === "question" ? question : title}
               </h2>
             </div>
@@ -338,7 +340,7 @@ const Card8 = ({ data, type, showImageProgress }) => {
               )}
               <div className="w-full bg-[#FFE5DB] rounded-full h-[8px] mt-1 overflow-hidden">
                 <div 
-                  className="bg-[#FF6029] h-full transition-all duration-500" 
+                  className="bg-[var(--color-accent-orange)] h-full transition-all duration-500" 
                   style={{ width: `${progress}%` }} 
                 />
               </div>
@@ -347,8 +349,8 @@ const Card8 = ({ data, type, showImageProgress }) => {
 
           {type === "material" && (
             <>
-              <p className="text-[14px] text-[#6B7280]">{paragraph}</p>
-              <div className="flex flex-wrap gap-4 text-[13px] text-[#6B7280]">
+              <p className="text-[17px] text-[#6B7280]">{paragraph}</p>
+              <div className="flex flex-wrap gap-4 text-[15px] text-[#6B7280]">
                 <span className="font-medium text-[#111827]">PDF</span>
                 <span>{pages} pages</span>
                 {MB && <span>{MB}</span>}
@@ -377,17 +379,17 @@ const Card8 = ({ data, type, showImageProgress }) => {
       {!showImageProgress && (
         <div className="flex items-start shrink-0">
           {type === "material" && (
-            <div className="flex gap-4">
-              <div className="flex items-center gap-1 text-[#6B7280] cursor-pointer text-[14px]">
+            <div className="flex mt-5 gap-8">
+              <div className="flex items-center gap-1 text-[#6B7280] cursor-pointer text-[16px]">
                 <LuEye size={18} /> Preview
               </div>
-              <Button className="bg-[#FF6029] text-white px-3 py-2 rounded-md flex items-center gap-1 text-[14px]">
+              <Button className=" text-white px-5 py-2 rounded-md flex items-center gap-1 text-[16px]">
                 <LuDownload size={18} /> Download
               </Button>
             </div>
           )}
           {(type === "practice" || type === "question") && (
-            <Button className="bg-[#FF6029] text-white px-4 py-2 rounded-md text-[14px]">
+            <Button className="text-white px-4 py-2 rounded-md text-[14px]">
               {type === "practice" ? "Start Practice" : "Start Writing"}
             </Button>
           )}

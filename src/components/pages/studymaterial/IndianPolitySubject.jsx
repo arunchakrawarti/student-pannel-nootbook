@@ -33,7 +33,7 @@ const IndianPolitySubject = () => {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4 mt-4 bg-white">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4 mt-4">
       {carddata.map((card) => (
         <Card7
           key={card.id}

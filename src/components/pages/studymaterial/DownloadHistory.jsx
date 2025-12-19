@@ -4,9 +4,9 @@ import pdf from "../../../../public/db/pdf.json";
 
 const DownloadHistory = () => {
   return (
-    <div className="mt-5 bg-white p-4 sm:p-6 md:p-0">
+    <div className="mt-5">
       
-      <h1 className="font-inter font-normal text-[16px] leading-[24px] tracking-[-0.31px]">
+      <h1 className="font-inter font-normal text-[16px] tracking-[-0.31px]">
         All Materials
       </h1>
 

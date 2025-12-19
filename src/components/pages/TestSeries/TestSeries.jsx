@@ -6,10 +6,10 @@ const TestSeries = () => {
   return (
     <div className="mt-3">
       <div>
-        <h1 className="font-inter font-medium text-[24px] leading-[36px] tracking-[0.07px]">
+        <h1 className="font-inter font-medium text-[28px] tracking-[0.07px]">
         Test Series
       </h1>
-      <p className="font-inter font-normal text-[16px] leading-[24px] tracking-[-0.31px]">
+      <p className="font-inter font-normal text-[18px] text-gray-700 tracking-[-0.31px]">
         Attempt tests and track your performance
       </p>
       </div>

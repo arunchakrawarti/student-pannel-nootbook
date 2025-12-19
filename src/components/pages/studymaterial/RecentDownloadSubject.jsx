@@ -6,12 +6,12 @@ import file from "../../../../public/db/file.json"
 
 const RecentDownloadSubject = () => {
   return (
-    <div className="mt-6">
-      <h1 className="font-inter font-normal text-[16px] leading-[16px] tracking-[-0.31px]">
+    <div className="mt-6 bg-white rounded-lg shadow-sm p-4">
+      <h1 className="font-inter font-normal text-[18px] tracking-[-0.31px]">
         Recent Downloads
       </h1>
 
-      <div className="w-full mt-3 p-4 bg-white rounded-lg shadow-sm">
+      <div className="w-full mt-3 p-4 ">
         {file.map((item) => (
           <Card3
             key={item.id}
