@@ -14,13 +14,12 @@ const SubjectList = () => {
 
   return (
     <div 
-      className="flex items-center gap-6 overflow-x-auto pb-4 mt-8 no-scrollbar cursor-grab active:cursor-grabbing select-none"
+      className="flex items-center gap-6 overflow-x-auto bg-white max-w-fit mt-8 no-scrollbar px-4 rounded-md py-2 cursor-grab active:cursor-grabbing select-none"
       style={{
-        msOverflowStyle: 'none',  /* IE and Edge */
-        scrollbarWidth: 'none',   /* Firefox */
+        msOverflowStyle: 'none',  
+        scrollbarWidth: 'none',  
       }}
     >
-      {/* Scrollbar hide karne ke liye small style tag */}
       <style dangerouslySetInnerHTML={{__html: `
         .no-scrollbar::-webkit-scrollbar {
           display: none;

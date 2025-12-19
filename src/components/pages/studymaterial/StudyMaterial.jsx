@@ -1,66 +1,58 @@
 import React from "react";
-import { LuFilter } from "react-icons/lu";
 import { IoSearchOutline } from "react-icons/io5";
-import browser from "../../../../public/db/browser.json";
-import Card9 from "@/components/molecules/Card9";
+import { LuFilter } from "react-icons/lu";
 import Link from "next/link";
+import Card9 from "@/components/molecules/Card9";
+import browser from "../../../../public/db/browser.json";
 
 const StudyMaterial = () => {
   return (
-   <div className="mt-2">
-  <div>
-    <h1 className="font-inter font-medium text-[24px] leading-[36px] tracking-[0.07px]">
-      Study Materials
-    </h1>
-    <p className="font-inter text-gray-600 mt-1 font-normal text-[16px] leading-[24px] tracking-[-0.31px]">
-      Access notes, PDFs and study resources
-    </p>
-  </div>
-
- <div className="flex flex-col sm:flex-row gap-3 mt-4 justify-between w-full">
-
- 
-  <div className="flex items-center gap-2 border px-2 py-2 rounded-md border-gray-300 bg-gray-100 w-full">
-    <IoSearchOutline />
-    <input
-      className="w-full font-inter font-normal text-[14px] leading-[100%] tracking-[-0.15px] outline-none"
-      type="text"
-      placeholder="Search study materials..."
-    />
-  </div>
-
-  
-  <div className="flex items-center gap-2 border px-3 py-2 rounded-md border-gray-300 whitespace-nowrap sm:w-auto w-full justify-center sm:justify-start">
-    <LuFilter />
-    <p className="font-inter font-medium text-[14px] leading-[20px] tracking-[-0.15px]">
-      Filter
-    </p>
-  </div>
-
-</div>
-  <div className=" mt-5">
-      <h1 className="font-inter font-normal text-[16px] leading-[24px] tracking-[-0.31px]">
-        Browse by Subject
+    <div className="mt-2">
+      <h1 className="font-inter font-medium text-[30px]">
+        Study Materials
       </h1>
+      <p className="font-inter text-gray-600 mt-2 text-[19px]">
+        Access notes, PDFs and study resources
+      </p>
+      <div className="flex flex-col sm:flex-row gap-3 mt-7 justify-between">
+        <div className="flex items-center gap-2 px-3 py-2 bg-[#F3F3F5] rounded-md w-full">
+          <IoSearchOutline size={24} className="text-gray-500" />
+          <input
+            className="w-full bg-transparent text-[18px]"
+            placeholder="Search study materials..."
+          />
+        </div>
 
-      <div className="grid grid-cols-2
-       md:grid-cols-3 lg:grid-cols-6  gap-4 mt-3">
-  {browser.map((item, index) => (
-    <Link href="study-material/subjectslug">
-    <Card9
-      key={index}
-      variant="folder"
-      label={item.label}
-      value={item.value}
-      colorClass={item.colorClass}
-      iconColor={item.iconColor}
-    />
-    </Link>
-  ))}
-</div>
+        <div className="flex items-center gap-2 px-5 py-2 bg-white rounded-md">
+          <LuFilter size={20} />
+          <span className="font-medium text-[17px]">Filter</span>
+        </div>
+      </div>
+      <div className="mt-7">
+        <h2 className="text-[20px] text-[var(--color-accent-blue)]">
+          Browse by Subject
+        </h2>
+
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mt-3 items-stretch">
+          {browser.map((item, index) => (
+            <Link
+              key={index}
+              href="study-material/subjectslug"
+            >
+              <Card9
+                variant="folder"
+                label={item.label}
+                value={item.value}
+                colorClass={item.colorClass}
+                iconColor={item.iconColor}
+                boxSize={item.boxSize}
+                iconSize={item.iconSize}
+              />
+            </Link>
+          ))}
+        </div>
+      </div>
     </div>
-</div>
-
   );
 };
 

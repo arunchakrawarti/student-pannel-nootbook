@@ -5,6 +5,8 @@ import { TbStopwatch } from "react-icons/tb";
 import { FiUsers } from "react-icons/fi";
 import { SlClock } from "react-icons/sl";
 import { LuCalendar } from "react-icons/lu";
+import { IoVideocamOutline } from "react-icons/io5";
+
 
 const CourseCard = ({
   img,
@@ -31,7 +33,7 @@ const CourseCard = ({
     : "bg-white text-black";
 
   return (
-    <div className="w-full bg-white rounded-xl shadow-md overflow-hidden">
+    <div className="w-full bg-white rounded-xl border border-gray-200 overflow-hidden">
 
       <div className="relative w-full">
 
@@ -48,7 +50,7 @@ const CourseCard = ({
         </div>
 
         {isLiveSession && (
-          <div className="absolute bottom-3 left-3 sm:bottom-4 sm:left-4 z-10 text-gray-100 font-inter text-sm sm:text-md font-medium">
+          <div className="absolute bottom-1 left-3 sm:bottom-4 sm:left-4 z-10 text-gray-100 font-inter text-sm sm:text-md font-medium">
             {liveTitleOnImage}
           </div>
         )}
@@ -74,22 +76,22 @@ const CourseCard = ({
           </h2>
         )}
 
-        <p className={`font-inter text-gray-600 text-[12px] sm:text-[14px] ${isLiveSession ? "mt-1" : "mt-2"}`}>
+        <p className={`font-inter text-gray-600 text-[12px] sm:text-[17px] ${isLiveSession ? "mt-6" : "mt-2"}`}>
           by {teacher}
         </p>
         {isLiveSession ? (
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mt-3 sm:mt-4 text-gray-700 gap-3 sm:gap-0">
 
             <div className="flex items-center gap-1 sm:gap-2">
-              <SlClock size={16} className="text-gray-500" />
-              <span className="font-inter text-[12px] sm:text-[14px]">
+              <SlClock size={17} className="text-gray-500" />
+              <span className="font-inter text-[12px] sm:text-[15px]">
                 {sessionTime}
               </span>
             </div>
 
             <div className="flex items-center gap-1 sm:gap-2">
-              <FiUsers size={16} className="text-gray-500" />
-              <span className="font-inter text-[12px] sm:text-[14px]">
+              <FiUsers size={17} className="text-gray-500" />
+              <span className="font-inter text-[12px] sm:text-[15px]">
                 {registeredCount} registered
               </span>
             </div>
@@ -122,21 +124,29 @@ const CourseCard = ({
             </div>
           </>
         )}
+       <div className="flex items-center gap-3 mt-4 sm:mt-5">
 
-        <button
-          className="
-            w-full mt-4 sm:mt-5 
-            text-white 
-            py-2 sm:py-3 cursor-pointer
-            rounded-lg 
-            text-[12px] sm:text-[14px] font-medium
-            bg-[var(--color-accent-orange)]
-            flex justify-center items-center gap-2
-          "
-        >
-          {isLiveSession && <LuCalendar size={16} className="text-white" />}
-          {buttonText}
-        </button>
+  <button
+    className="
+      flex-1
+      text-white 
+      py-2 sm:py-2 cursor-pointer
+      rounded-lg 
+      text-[12px] sm:text-[14px] font-medium
+      bg-[var(--color-accent-orange)]
+      flex justify-center items-center gap-2
+    "
+  >
+    <span className="text-lg"><IoVideocamOutline />
+</span> 
+    {buttonText}
+  </button>
+  {isLiveSession && (
+    <div className="p-2 sm:p-3 border border-gray-200 rounded-lg cursor-pointer hover:bg-gray-50 flex items-center justify-center">
+      <LuCalendar size={14} className="text-gray-600" />
+    </div>
+  )}
+</div>
       </div>
     </div>
   );

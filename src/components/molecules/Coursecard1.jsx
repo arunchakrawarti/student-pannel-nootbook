@@ -10,7 +10,7 @@ const Coursecard1 = ({ items }) => {
           <span className="mt-2 w-2 h-2 rounded-full bg-orange-500"></span>
 
           
-          <p className="text-[14px] leading-[20px] font-inter text-[#1E293B]">
+          <p className="text-[16px] text-gray-600 font-inter">
             {item.text}
           </p>
         </div>

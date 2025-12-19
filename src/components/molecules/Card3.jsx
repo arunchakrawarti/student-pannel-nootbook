@@ -171,7 +171,7 @@ const Card3 = ({
   
   if (type === "session") {
     return (
-      <div className="w-full bg-white border-b last:border-0 px-4 py-4">
+      <div className="w-full bg-white border border-gray-200 rounded-xl px-4 py-4">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <div className="flex flex-col gap-1.5">
             <h2 className="font-inter font-medium text-[14px] sm:text-[16px] text-[#1E293B] leading-6">
@@ -182,7 +182,7 @@ const Card3 = ({
               by {sessionBy || "Dr. Vikas Singh"}
             </p>
 
-            <div className="flex flex-wrap gap-3 text-[12px] sm:text-[14px] text-[#475569] mt-2">
+            <div className="flex flex-wrap gap-3 text-[12px] sm:text-[14px] text-[#475569]">
               <span className="flex items-center gap-1">
                 <SlCalender className="text-[12px]" />
                 {sessionDate || "16 Nov 2025"}

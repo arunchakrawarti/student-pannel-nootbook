@@ -2,37 +2,37 @@
   {
     "label": "Syllabus",
     "value": "12 files",
-    "colorClass": "bg-blue-50",
+    "colorClass": "bg-[#DBEAFE]",
     "iconColor": "text-blue-600"
   },
   {
     "label": "NCERT Books",
     "value": "10 files",
-    "colorClass": "bg-purple-50",
+    "colorClass": "bg-[#F3E8FF]",
     "iconColor": "text-purple-600"
   },
   {
     "label": "Previous Year Question",
     "value": "8 files",
-    "colorClass": "bg-green-50",
+    "colorClass": "bg-[#DCFCE7]",
     "iconColor": "text-green-600"
   },
   {
     "label": "Current Affairs",
     "value": "9 files",
-    "colorClass": "bg-orange-50",
+    "colorClass": "bg-[#FFEDD4]",
     "iconColor": "text-orange-500"
   },
   {
     "label": "Important Reports",
     "value": "8 files",
-    "colorClass": "bg-red-50",
+    "colorClass": "bg-[#FFE2E2]",
     "iconColor": "text-red-600"
   },
   {
     "label": "Mind Map",
     "value": "15 files",
-    "colorClass": "bg-pink-50",
+    "colorClass": "bg-[#FCE7]",
     "iconColor": "text-pink-600"
   }
 ]

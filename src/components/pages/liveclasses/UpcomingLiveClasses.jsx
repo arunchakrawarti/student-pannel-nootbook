@@ -2,7 +2,6 @@
 import React, { useState } from 'react'
 import upcoming from "../../../../public/db/upcoming.json"
 import Card3 from '@/components/molecules/Card3'
-import Button from '@/components/comman/Button'
 
 
 const UpcomingLiveClasses = () => {
@@ -10,30 +9,34 @@ const UpcomingLiveClasses = () => {
 
   return (
     <div className="w-full mt-4">
-     
-      <div className="flex flex-wrap sm:flex-nowrap gap-4 sm:gap-8 items-center bg-gray-200 text-red-500 w-full sm:w-[230px] rounded-md shadow">
-        <Button
-          onClick={() => setActiveTab("recordings")}
-          className={`cursor-pointer  ${
-            activeTab === "recordings" ? "bg-gray-500" : "bg-transparent"
+    
+    <div className="w-full sm:w-[390px] bg-white rounded-full p-1 flex">
+      <button
+        onClick={() => setActiveTab("recordings")}
+        className={`flex-1 text-center py-2 rounded-full text-sm font-medium transition-all
+          ${
+            activeTab === "recordings"
+              ? "bg-[#F2F2F2] text-black"
+              : "bg-transparent text-gray-500"
           }`}
-        >
-          Recordings
-        </Button>
-        <Button
-          onClick={() => setActiveTab("upcoming")}
-          className={`${
-            activeTab === "upcoming" ? "bg-gray-500" : "bg-transparent"
-          } ${
-            activeTab === "upcoming" ? "text-red-500" : "text-yellow-600"
+      >
+        Recordings
+      </button>
+      <button
+        onClick={() => setActiveTab("upcoming")}
+        className={`flex-1 text-center py-2 rounded-full text-sm font-medium transition-all
+          ${
+            activeTab === "upcoming"
+              ? "bg-[#F2F2F2] text-black"
+              : "bg-transparent text-gray-500"
           }`}
-        >
-          Upcoming
-        </Button>
-      </div>
-      <div className="mt-5 bg-white rounded-lg shadow-md p-4">
-        <h3 className="text-lg sm:text-xl font-semibold mb-3">Upcoming Live Classes</h3>
-        <div className="grid grid-cols-1  lg:grid-cols-1 gap-4">
+      >
+        Upcoming
+      </button>
+    </div>
+      <div className="mt-5 bg-white rounded-xl border border-gray-200 p-6">
+        <h3 className="font-inter font-normal text-[18px] tracking-[-0.31px]">Upcoming Live Classes</h3>
+        <div className="grid grid-cols-1 mt-5 lg:grid-cols-1 gap-4">
           {upcoming.map((session) => (
             <Card3
               key={session.id}

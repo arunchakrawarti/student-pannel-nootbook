@@ -17,14 +17,14 @@ const LessonCard = ({
 }) => {
     if (type === "recorded") {
         return (
-            <div className="flex items-center gap-4 p-3 bg-white border-b border-gray-100">
+            <div className="flex items-center mt-5 gap-4 p-3 bg-white mx-2">
                 
-                <div className="h-12 w-12 bg-gray-100 rounded-md flex items-center justify-center">
-                    <FaPlay className="text-gray-400 text-[14px]" />
+                <div className="h-18 w-25 bg-[#E5E7EB] rounded-md flex items-center justify-center">
+                    <FaPlay size={20} className="text-gray-400" />
                 </div>
 
                 <div className="flex-1">
-                    <h3 className="text-[15px] font-medium text-[#1E293B] leading-[20px]">
+                    <h3 className=" font-inter font-normal text-[16px] text-gray-700 tracking-[-0.15px]">
                         {title}
                     </h3>
 
@@ -41,7 +41,7 @@ const LessonCard = ({
     }
     if (type === "participants") {
         return (
-            <div className="flex items-center justify-between p-3 bg-white border-b border-gray-100">
+            <div className="flex items-center justify-between p-3 bg-white">
 
                 <div className="flex items-center gap-3">
                     <div className="h-10 w-10 rounded-full bg-[var(--color-accent-orange)] flex items-center justify-center text-white font-semibold">
@@ -49,8 +49,8 @@ const LessonCard = ({
                     </div>
 
                     <div>
-                        <h3 className="text-[15px] text-[#1E293B]">{userName}</h3>
-                        <p className="text-[12px] text-[#64748B]">{role}</p>
+                        <h3 className="font-inter font-normal text-[15px]  tracking-[-0.15px] text-[#1E293B]">{userName}</h3>
+                        <p className="text-[14px] text-[#64748B]">{role}</p>
                     </div>
                 </div>
 
@@ -64,11 +64,11 @@ const LessonCard = ({
         return (
             <div className="flex flex-col gap-1 p-3">
 
-                <p className="text-[13px] font-medium text-[var(--color-accent-orange)]">
-                    {userName} <span className="text-[11px] text-gray-500 ">{time}</span>
+                <p className="text-[14px] font-normal font-inter text-[var(--color-accent-orange)]">
+                    {userName} <span className="text-[13px] text-gray-500 ">{time}</span>
                 </p>
 
-                <div className="bg-gray-50 px-3 py-2 rounded-md text-[14px] text-[#334155] leading-[20px]">
+                <div className="bg-gray-50 px-3 py-2 rounded-md text-[15px] font-inter font-normal text-[#334155] leading-[20px]">
                     {message}
                 </div>
             </div>
