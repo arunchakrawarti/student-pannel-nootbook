@@ -33,7 +33,7 @@ const SideBar = ({ isSidebarOpen, setIsSidebarOpen }) => {
       <div
         className={`fixed inset-y-0 left-0 z-30 transform bg-[var(--color-accent-blue)] transition-transform duration-300 md:relative md:translate-x-0 ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-        } w-80 md:w-80 xl:w-79`}
+        } w-64 lg:w-[20.5%]`}
       >
         <nav className="flex h-full flex-col gap-2 py-4 md:gap-7">
           <div className="flex h-auto max-w-full gap-3 px-8 sm:mt-5 md:mt-5">
@@ -43,7 +43,7 @@ const SideBar = ({ isSidebarOpen, setIsSidebarOpen }) => {
                 height={64}
                 width={100}
                 alt="logo"
-                className="h-22 w-80"
+                className="h-auto w-36 md:w-44 lg:w-64"
               />
             </h1>
 

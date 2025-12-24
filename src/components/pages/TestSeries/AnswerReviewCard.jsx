@@ -4,7 +4,7 @@ import answerdata from "../../../../public/db/answerdata.json";
 
 const AnswerReviewCard = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col mt-5 items-center">
       {answerdata.map((data, index) => (
         <AnswerCard
           key={index}
@@ -23,3 +23,6 @@ const AnswerReviewCard = () => {
 };
 
 export default AnswerReviewCard;
+
+
+

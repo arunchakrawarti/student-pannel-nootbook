@@ -1,4 +1,4 @@
-import Card9 from '@/components/molecules/Card9';
+import Card9 from '@/components/molecules/BaseCard';
 import React from 'react'
 import { IoAtCircleOutline } from "react-icons/io5";
 import practice from "../../../../public/db/practice.json"

@@ -2,24 +2,24 @@ import Image from 'next/image';
 import React from 'react';
 import { CgProfile } from "react-icons/cg";
 
-const MarketCard = ({ 
-  imgSrc,       
-  title, 
-  heading, 
-  proname, 
-  price = "Rs24.92", 
-  originalPrice = "Rs32.90"  
+const MarketCard = ({
+  imgSrc,
+  title,
+  heading,
+  proname,
+  price = "Rs24.92",
+  originalPrice = "Rs32.90"
 }) => {
   return (
     <div className="w-full  bg-white  rounded-lg shadow-md overflow-hidden relative font-inter">
       <div className="relative">
         <Image
-  src={imgSrc}
-  alt={title}
-  width={350}
-  height={161}
-  className="w-full h-auto object-cover"
-/>
+          src={imgSrc}
+          alt={title}
+          width={350}
+          height={161}
+          className="w-full h-auto object-cover"
+        />
 
         <div className="absolute top-2 left-2 flex gap-2">
           <span className="bg-[#00C897] text-white text-[8px] font-bold px-3 py-1 rounded-full">Best Seller</span>

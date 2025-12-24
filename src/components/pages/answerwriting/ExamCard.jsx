@@ -1,6 +1,6 @@
 import React from "react";
-import Card9 from "../../molecules/Card9"; 
-import examcard from "../../../../public/db/examcard.json"; 
+import Card9 from "../../molecules/BaseCard";
+import examcard from "../../../../public/db/examcard.json";
 
 const ExamCard = () => {
   return (
@@ -9,13 +9,13 @@ const ExamCard = () => {
         <Card9
           key={item.id}
           iconSrc={item.iconSrc}
-          value={item.value}  
+          value={item.value}
           label={item.label}
           colorClass={item.colorClass}
           imagePosition={item.imagePosition}
           reverseText={item.reverseText}
           isFullColorCard={item.isFullColorCard}
-          iconHeight={item.iconHeight} 
+          iconHeight={item.iconHeight}
           iconWidth={item.iconWidth}
         />
       ))}

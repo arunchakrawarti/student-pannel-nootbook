@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import upcoming from "../../../../public/db/upcoming.json"
-import Card3 from '@/components/molecules/Card3'
+import InfoListCard from '@/components/molecules/InfoListCard'
 
 
 const UpcomingLiveClasses = () => {
@@ -9,36 +9,34 @@ const UpcomingLiveClasses = () => {
 
   return (
     <div className="w-full mt-4">
-    
-    <div className="w-full sm:w-[390px] bg-white rounded-full p-1 flex">
-      <button
-        onClick={() => setActiveTab("recordings")}
-        className={`flex-1 text-center py-2 rounded-full text-sm font-medium transition-all
-          ${
-            activeTab === "recordings"
+
+      <div className="w-full sm:w-[390px] bg-white rounded-full p-1 flex">
+        <button
+          onClick={() => setActiveTab("recordings")}
+          className={`flex-1 text-center py-2 rounded-full text-sm font-medium transition-all
+          ${activeTab === "recordings"
               ? "bg-[#F2F2F2] text-black"
               : "bg-transparent text-gray-500"
-          }`}
-      >
-        Recordings
-      </button>
-      <button
-        onClick={() => setActiveTab("upcoming")}
-        className={`flex-1 text-center py-2 rounded-full text-sm font-medium transition-all
-          ${
-            activeTab === "upcoming"
+            }`}
+        >
+          Recordings
+        </button>
+        <button
+          onClick={() => setActiveTab("upcoming")}
+          className={`flex-1 text-center py-2 rounded-full text-sm font-medium transition-all
+          ${activeTab === "upcoming"
               ? "bg-[#F2F2F2] text-black"
               : "bg-transparent text-gray-500"
-          }`}
-      >
-        Upcoming
-      </button>
-    </div>
+            }`}
+        >
+          Upcoming
+        </button>
+      </div>
       <div className="mt-5 bg-white rounded-xl border border-gray-200 p-6">
         <h3 className="font-inter font-normal text-[18px] tracking-[-0.31px]">Upcoming Live Classes</h3>
         <div className="grid grid-cols-1 mt-5 lg:grid-cols-1 gap-4">
           {upcoming.map((session) => (
-            <Card3
+            <InfoListCard
               key={session.id}
               type={session.type}
               sessionTitle={session.sessionTitle}

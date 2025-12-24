@@ -1,5 +1,5 @@
 import videoList from "../../../../../public/db/videoList.json";
-import Card3 from "@/components/molecules/Card3";
+import InfoListCard from "@/components/molecules/InfoListCard";
 
 const VideoLecture = () => {
   return (
@@ -10,15 +10,15 @@ const VideoLecture = () => {
 
       <div className="flex mt-4 flex-col gap-3">
 
-       {videoList.map((item, index) => (
-        <Card3
-          key={index}
-          title={item.title}
-          month={item.month}
-          status={item.status}        
-          buttonType={item.buttonType} 
-        />
-      ))}
+        {videoList.map((item, index) => (
+          <InfoListCard
+            key={index}
+            title={item.title}
+            month={item.month}
+            status={item.status}
+            buttonType={item.buttonType}
+          />
+        ))}
 
       </div>
     </div>

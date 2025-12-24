@@ -1,6 +1,5 @@
 "use client";
-
-import { Button } from "@/components/comman/Button";
+import Button from "@/components/comman/Button";
 import React from "react";
 
 const SubmitModel = ({ open, setOpen }) => {

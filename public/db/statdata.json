@@ -3,24 +3,24 @@
     "id": 1,
     "value": "142",
     "label": "Score",
-    "valueColor": "text-red-500"
+    "valueColor": "text-[#FF6029]"
   },
   {
     "id": 2,
     "value": "200",
     "label": "Total",
-    "valueColor": "text-blue-600"
+    "valueColor": "text-[#16344E]"
   },
   {
     "id": 3,
     "value": "89%",
     "label": "Percentile",
-    "valueColor": "text-green-600"
+    "valueColor": "text-[#00A63E]"
   },
   {
     "id": 4,
     "value": "71%",
     "label": "Accuracy",
-    "valueColor": "text-indigo-600"
+    "valueColor": "text-[#155DFC]"
   }
 ]

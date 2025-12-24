@@ -1,5 +1,5 @@
 import React from "react";
-import Card9 from "@/components/molecules/Card9";
+import Card9 from "@/components/molecules/BaseCard";
 import statsData from "../../../../public/db/statsData.json";
 import { IoCheckmarkCircleOutline } from "react-icons/io5";
 import { Button } from "@/components/comman/Button";
@@ -8,14 +8,14 @@ const PracticeSessionCompleted = () => {
   return (
     <div className="w-full mt-4 px-4 sm:px-6">
       <div className="max-w-2xl mx-auto bg-white rounded-xl shadow-md p-4 sm:p-6">
-    
+
         <div className="flex justify-center mb-3">
           <div className="h-10 w-10 sm:h-12 sm:w-12 rounded-full bg-orange-50 flex items-center justify-center">
             <IoCheckmarkCircleOutline className="text-[var(--color-accent-orange)] text-xl sm:text-2xl" />
           </div>
         </div>
 
-        
+
         <h2 className="text-center text-base sm:text-lg font-semibold text-gray-900">
           Practice Session Complete!
         </h2>
@@ -23,7 +23,7 @@ const PracticeSessionCompleted = () => {
           Great job! Here's your performance summary
         </p>
 
-        
+
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mt-5 sm:mt-6">
           {statsData.map((item) => (
             <Card9

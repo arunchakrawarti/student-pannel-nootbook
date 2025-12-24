@@ -1,4 +1,4 @@
-import Card6 from "@/components/molecules/Card6";
+import Card6 from "@/components/molecules/DocumentCard";
 import React from "react";
 import subjectCards from "../../../../public/db/subjectCards.json";
 
@@ -18,12 +18,12 @@ const SubjectDetail = () => {
             icon={card.icon}
             iconBgColor={card.iconBgColor}
             cardBgColor={card.cardBgColor}
-            accuracyText={card.accuracyText} 
+            accuracyText={card.accuracyText}
             accuracyBgColor={card.accuracyBgColor}
             accuracyTextColor={card.accuracyTextColor}
             questions={card.questions}
             attempted={card.attempted}
-            progress={card.progress} 
+            progress={card.progress}
             dividerColor={card.dividerColor}
           />
         ))}

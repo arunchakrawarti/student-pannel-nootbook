@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "iconSrc": "/img/Test.png",
+    "iconSrc": "/img/arr2.png",
     "value": "45",
     "label": "Total Question",
     "colorClass": "bg-[#DBEAFE]",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "iconSrc": "/img/Test1.png",
+    "iconSrc": "/img/pathicon.png",
     "value": "18",
     "label": "Attempted",
     "colorClass": "bg-[#DCFCE7]",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "iconSrc": "/img/Test2.png",
+    "iconSrc": "/img/arr4.png",
     "value": "12",
     "label": "Evalute",
     "colorClass": "bg-[#F3E8FF]",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "iconSrc": "/img/Test3.png",
+    "iconSrc": "/img/arr.png",
     "value": "11.8/15",
     "label": "Avg Score",
     "colorClass": "bg-red-50",

@@ -18,10 +18,10 @@ const Card12 = ({ color, img, title, month }) => {
 
        
         <div>
-          <h2 className="font-inter font-normal text-[16px] leading-[24px] tracking-[-0.31px]">
+          <h2 className="font-inter font-normal text-[16px] tracking-[-0.31px]">
             {title}
           </h2>
-          <p className="font-inter font-normal text-[12px] text-[#94A3B8] leading-[16px] mt-0.5">
+          <p className="font-inter font-normal text-[12px] text-[#94A3B8] mt-0.5">
             {month}
           </p>
         </div>

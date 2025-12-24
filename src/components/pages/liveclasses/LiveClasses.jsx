@@ -1,6 +1,6 @@
-import CourseCard from '@/components/molecules/CourseCard'
 import React from 'react'
 import liveclass from "../../../../public/db/liveclass.json"
+import CourseProgressCard from '@/components/molecules/CourseProgressCard'
 
 const LiveClasses = () => {
   return (
@@ -17,17 +17,17 @@ const LiveClasses = () => {
         </h2>
         <div className="grid grid-cols-1 mt-5 md:grid-cols-1 lg:grid-cols-2 gap-6">
           {liveclass.map((course) => (
-          <CourseCard
-                    key={course.id}
-                    img={course.img}
-                    title={course.title}
-                    teacher={course.teacher}
-                    isLiveSession={course.isLiveSession}
-                    liveBadgeText={course.liveBadgeText}
-                    sessionTime={course.sessionTime}
-                    registeredCount={course.registeredCount}
-                    
-                />
+            <CourseProgressCard
+              key={course.id}
+              img={course.img}
+              title={course.title}
+              teacher={course.teacher}
+              isLiveSession={course.isLiveSession}
+              liveBadgeText={course.liveBadgeText}
+              sessionTime={course.sessionTime}
+              registeredCount={course.registeredCount}
+
+            />
           ))}
         </div>
       </div>

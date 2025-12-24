@@ -8,7 +8,7 @@ import { LuCalendar } from "react-icons/lu";
 import { IoVideocamOutline } from "react-icons/io5";
 
 
-const CourseCard = ({
+const CourseProgressCard = ({
   img,
   title,
   teacher,
@@ -152,4 +152,4 @@ const CourseCard = ({
   );
 };
 
-export default CourseCard;
+export default CourseProgressCard;

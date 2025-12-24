@@ -4,7 +4,7 @@ import { FaPlay } from "react-icons/fa";
 
 const getInitial = (name = "") => name.charAt(0).toUpperCase();
 
-const LessonCard = ({
+const ConversationCard = ({
     type = "recorded",  
     title,
     duration,
@@ -78,4 +78,4 @@ const LessonCard = ({
     return null;
 };
 
-export default LessonCard;
+export default ConversationCard;

@@ -1,8 +1,8 @@
-import Card7 from "@/components/molecules/Card7";
 import Image from "next/image";
 import React from "react";
 import carddata from "../../../../public/db/carddata.json";
 import { IoIosArrowRoundBack } from "react-icons/io";
+import BaseCard from "@/components/molecules/BaseCard";
 
 const IndianPolitySubject = () => {
   return (
@@ -25,23 +25,25 @@ const IndianPolitySubject = () => {
           />
         </div>
         <div className="flex flex-col justify-center">
-          <h1 className="font-inter font-medium text-[24px] sm:text-[28px] leading-[36px] sm:leading-[40px] tracking-[0.07px]">
+          <h1 className="font-inter font-medium text-[24px] sm:text-[28px] tracking-[0.07px]">
             Indian Polity
           </h1>
-          <p className="font-inter font-normal text-[16px] sm:text-[18px] leading-[24px] sm:leading-[28px] tracking-[-0.31px]">
+          <p className="font-inter font-normal text-[16px] sm:text-[18px]  tracking-[-0.31px]">
             10 study materials available
           </p>
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4 mt-4">
-      {carddata.map((card) => (
-        <Card7
-          key={card.id}
-          img={card.imgSrc}
-          title={card.title}
-          no={card.no}
-          iconColor={card.iconColor}
-        />
+      {carddata.map((item,i) => (
+        <BaseCard
+      key={i}
+      iconSrc={item.img}
+      value={item.title}
+      label={item.description}
+      colorClass={item.color}          
+      imagePosition={item.imagePosition} 
+      reverseText={item.reverseText}     
+    />
       ))}
     </div>
     </div>

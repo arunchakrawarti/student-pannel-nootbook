@@ -2,8 +2,8 @@ import React from "react";
 import { IoSearchOutline } from "react-icons/io5";
 import { LuFilter } from "react-icons/lu";
 import Link from "next/link";
-import Card9 from "@/components/molecules/Card9";
 import browser from "../../../../public/db/browser.json";
+import BaseCard from "@/components/molecules/BaseCard";
 
 const StudyMaterial = () => {
   return (
@@ -39,7 +39,7 @@ const StudyMaterial = () => {
               key={index}
               href="study-material/subjectslug"
             >
-              <Card9
+              <BaseCard
                 variant="folder"
                 label={item.label}
                 value={item.value}

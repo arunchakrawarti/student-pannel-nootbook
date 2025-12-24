@@ -1,11 +1,11 @@
 import React from 'react'
-import CourseCard from "../../molecules/CourseCard";
 import course from "../../../../public/db/course.json";
+import CourseProgressCard from '../../molecules/CourseProgressCard';
 
 const MyCourse = () => {
     return (
         <div>
-            <h1 class="font-inter pt-3 font-medium text-[24px] tracking-[0.07px]">
+            <h1 className="font-inter pt-3 font-medium text-[24px] tracking-[0.07px]">
                 My Courses
             </h1>
             <p class="font-inter font-normal text-[18px] text-gray-600 tracking-[-0.31px]">
@@ -13,7 +13,7 @@ const MyCourse = () => {
             </p>
             <div className="grid mt-5 grid-cols-1 sm:grid-cols-2 md:grid-col-2 lg:grid-cols-3 gap-5">
                 {course.map((item, index) => (
-                    <CourseCard key={index} {...item} />
+                    <CourseProgressCard key={index} {...item} />
                 ))}
             </div>
         </div>

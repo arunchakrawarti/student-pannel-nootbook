@@ -124,7 +124,7 @@ import React from "react";
 import { IoDownload } from "react-icons/io5";
 import { useRouter } from "next/navigation";   
 import Button from "../comman/Button";
-const Card6 = ({
+const DocumentCard = ({
   variant = "subject",
 
   title,
@@ -248,4 +248,4 @@ const Card6 = ({
   );
 };
 
-export default Card6;
+export default DocumentCard;

@@ -6,9 +6,9 @@ import MockTestQuestion from './MockTestQuestion'
 const StartTest = () => {
   return (
     <div>
-       <QuestionCard />
+      <QuestionCard />
       <MockTestQuestion />
-     
+
 
     </div>
   )

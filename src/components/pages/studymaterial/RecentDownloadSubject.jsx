@@ -1,6 +1,6 @@
 import React from "react";
-import Card3 from "../../molecules/Card3";
 import file from "../../../../public/db/file.json"
+import InfoListCard from "../../molecules/InfoListCard";
 
 
 
@@ -13,7 +13,7 @@ const RecentDownloadSubject = () => {
 
       <div className="w-full mt-3 p-4 ">
         {file.map((item) => (
-          <Card3
+          <InfoListCard
             key={item.id}
             title={item.title}
             month={item.month}

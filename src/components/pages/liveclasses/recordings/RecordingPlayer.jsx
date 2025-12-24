@@ -1,4 +1,3 @@
-import Coursecard1 from '@/components/molecules/Coursecard1'
 import recording from "../../../../../public/db/recording.json"
 import chat from "../../../../../public/db/chat.json"
 import participants from "../../../../../public/db/participants.json"
@@ -6,8 +5,9 @@ import { MdOutlineManageAccounts, MdOutlineArrowBack } from "react-icons/md";
 import { IoChatboxOutline } from "react-icons/io5";
 import Image from 'next/image'
 import React from 'react'
-import LessonCard from '@/components/molecules/LessionCard'
 import Button from '@/components/comman/Button';
+import SessionOverviewCard from '@/components/molecules/SessionOverviewCard';
+import ConversationCard from "@/components/molecules/ConversationCard";
 
 const RecordingPlayer = () => {
     return (
@@ -34,9 +34,9 @@ const RecordingPlayer = () => {
 
                         <div>
                             <Button className="flex items-center bg-[#FB2C36] gap-2 px-3 py-1.5 text-white text-xs sm:text-sm w-fit">
-                            <span className="w-2 h-2 rounded-full bg-red-200 inline-block"></span>
-                            LIVE
-                        </Button>
+                                <span className="w-2 h-2 rounded-full bg-red-200 inline-block"></span>
+                                LIVE
+                            </Button>
                         </div>
                     </div>
                     <div className="w-full">
@@ -52,14 +52,14 @@ const RecordingPlayer = () => {
                         <h2 className="font-inter text-[14px] sm:text-[16px] md:text-[17px] mb-5">
                             Session Notes
                         </h2>
-                        <Coursecard1 items={recording} />
+                        <SessionOverviewCard items={recording} />
                     </div>
                 </div>
 
-               
+
                 <div className="w-full lg:w-[25%] space-y-4">
 
-            
+
                     <div className="bg-white px-3 py-2 rounded-lg">
                         <div className="flex items-center gap-2 px-2">
                             <MdOutlineManageAccounts size={22} />
@@ -69,7 +69,7 @@ const RecordingPlayer = () => {
                         </div>
 
                         {participants.map((item, index) => (
-                            <LessonCard key={index} {...item} />
+                            <ConversationCard key={index} {...item} />
                         ))}
                     </div>
                     <div className="bg-white px-3 py-2 rounded-lg">
@@ -81,7 +81,7 @@ const RecordingPlayer = () => {
                         </div>
 
                         {chat.map((item, index) => (
-                            <LessonCard key={index} {...item} />
+                            <ConversationCard key={index} {...item} />
                         ))}
                     </div>
                     <div className="flex flex-col sm:flex-row items-center gap-3">

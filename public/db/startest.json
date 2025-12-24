@@ -3,6 +3,7 @@
   {
     "title": "Prelims Mock Test 15",
     "paper": "GS Paper 1",
+    "difficulty": "Medium",
     "status": "upcoming",
     "tagText": "2 days left",
     "tagColor": "orange",
@@ -35,6 +36,7 @@
   {
     "title": "Economy Sectional Test",
     "paper": "Economy",
+     "difficulty": "Hard",
     "status": "upcoming",
     "tagText": "9 days left",
     "tagColor": "orange",
@@ -67,6 +69,7 @@
   {
     "title": "Mains Test Series - Essay",
     "paper": "Essay Paper",
+     "difficulty": "Hard",
     "status": "upcoming",
     "tagText": "7 days left",
     "tagColor": "orange",

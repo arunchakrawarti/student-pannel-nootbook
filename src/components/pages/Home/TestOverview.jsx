@@ -1,6 +1,6 @@
 import React from "react";
 
-import data from "../../../../public/db/data.json";
+import testresult from "../../../../public/db/testresult.json";
 import { HiOutlineDocumentCheck } from "react-icons/hi2";
 import Image from "next/image";
 import Link from "next/link";
@@ -26,7 +26,7 @@ const cardData = [
   },
 ];
 
-const Pending = () => {
+const TestOverview = () => {
   return (
     <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 mt-5">
       
@@ -40,7 +40,7 @@ const Pending = () => {
           </p>
         </div>
 
-        {data.map((item) => (
+        {testresult.map((item) => (
           <TestSeriesCard
             key={item.id}
             title={item.title}
@@ -80,4 +80,4 @@ const Pending = () => {
   );
 };
 
-export default Pending;
+export default TestOverview;

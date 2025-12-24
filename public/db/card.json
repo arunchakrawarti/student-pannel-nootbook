@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "iconSrc": "/img/Icon1.png",
+    "iconSrc": "/img/icon1.png",
     "value": "23",
     "label": "Tests Attempted",
     "changeText": "3",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "iconSrc": "/img/Icon2.png",
+    "iconSrc": "/img/icon2.png",
     "value": "68%",
     "label": "Avg. Score",
     "changeText": "+5%",
