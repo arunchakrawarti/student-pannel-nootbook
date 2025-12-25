@@ -3,7 +3,7 @@ import SubjectList from './SubjectList'
 import RecentDownloadSubject from './RecentDownloadSubject'
 import StudyMaterial from './StudyMaterial'
 
-const Index = () => {
+const Mainstudymaterial = () => {
   return (
     <div className='md:px-10 px-6'>
       <StudyMaterial/>
@@ -13,4 +13,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default Mainstudymaterial

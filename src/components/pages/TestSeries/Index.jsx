@@ -2,7 +2,7 @@ import React from 'react'
 import TestSeries from './TestSeries'
 import PrelimsMockTest from './PrelimsMockTest'
 
-const Index = () => {
+const Maintestseries = () => {
   return (
     <div className='md:px-10 px-6'>
       <TestSeries/>
@@ -11,4 +11,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default Maintestseries

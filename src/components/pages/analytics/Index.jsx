@@ -3,7 +3,7 @@ import ProgressAndAnalytics from './ProgressAndAnalytics'
 import StudyTimeChart from './StudyTimeChart'
 import WeeklyGoal from './WeeklyGoal'
 
-const Index = () => {
+const Mainanalysis = () => {
   return (
     <div className='md:px-10 px-6'>
       <ProgressAndAnalytics/>
@@ -13,4 +13,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default Mainanalysis

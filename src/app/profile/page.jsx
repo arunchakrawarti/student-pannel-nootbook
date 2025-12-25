@@ -1,4 +1,4 @@
-import Index from "@/components/pages/profile/Index";
+import Mainprofile from "@/components/pages/profile/Index";
 import MainLayout from "@/components/templates/MainLayout";
 import React from "react";
 
@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div>
       <MainLayout>
-        <Index/>
+        <Mainprofile/>
       </MainLayout>
     </div>
   );

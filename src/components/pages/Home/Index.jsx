@@ -4,7 +4,7 @@ import Profile from './Profile'
 import TestOverview from './TestOverview'
 import AnnouncementList from './AnnouncementList'
 
-const Index = () => {
+const Mainhome = () => {
     return (
         <div className='md:px-10 px-6'>
             <Profile />
@@ -15,4 +15,4 @@ const Index = () => {
     )
 }
 
-export default Index
+export default Mainhome

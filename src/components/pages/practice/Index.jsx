@@ -3,7 +3,7 @@ import Practices from './Practices'
 import SubjectDetail from './SubjectDetail'
 
 
-const Index = () => {
+const Mainpractice = () => {
   return (
     <div className='md:px-10 px-6'>
       <Practices/>
@@ -12,4 +12,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default Mainpractice
