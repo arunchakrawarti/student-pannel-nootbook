@@ -1,26 +1,27 @@
 import React from "react";
 import { IoIosArrowRoundBack } from "react-icons/io";
 import { CiClock2 } from "react-icons/ci";
-import { Button } from "@/components/comman/Button";
+import Button from "@/components/comman/Button";
+
 
 const GsPaper = () => {
   return (
     <div
-      className="
+      className=" -mt-8
         w-full
-        flex flex-col mt-3 gap-4
+        flex flex-col bg-white  gap-4
         sm:flex-row shadow p-4 sm:items-center sm:justify-between
       "
     >
       <div className="flex items-start sm:items-center gap-3">
         <div className="flex gap-1 sm:gap-2 items-center cursor-pointer">
           <IoIosArrowRoundBack className="text-2xl sm:text-3xl" />
-          <h3 className="font-inter font-medium text-[14px] sm:text-[16px] leading-[20px] sm:leading-[24px] tracking-[-0.15px]">
+          <h3 className="font-inter font-medium text-[14px] sm:text-[16px] tracking-[-0.15px]">
             Back
           </h3>
         </div>
         <div className="flex flex-col gap-1">
-          <h1 className="font-inter font-normal text-[14px] sm:text-[16px] leading-[20px] sm:leading-[24px] tracking-[-0.31px]">
+          <h1 className="font-inter font-normal text-[14px] sm:text-[16px] tracking-[-0.31px]">
             GS Paper 3 – Agriculture
           </h1>
 
@@ -31,7 +32,7 @@ const GsPaper = () => {
               px-2 py-0.5
               rounded-md
               text-white
-              text-[12px] leading-[16px] tracking-[0px]
+              text-[12px] tracking-[0px]
               bg-[var(--color-accent-orange)]
             "
           >
@@ -48,7 +49,7 @@ const GsPaper = () => {
       >
         <div className="flex items-center gap-1 sm:gap-2">
           <CiClock2 className="text-lg sm:text-xl" />
-          <p className="font-inter font-normal text-[14px] sm:text-[16px] leading-[20px] sm:leading-[24px] tracking-[-0.31px]">
+          <p className="font-inter font-normal text-[14px] sm:text-[16px] tracking-[-0.31px]">
             15:00
           </p>
         </div>

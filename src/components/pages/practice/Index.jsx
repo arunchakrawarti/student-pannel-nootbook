@@ -5,7 +5,7 @@ import SubjectDetail from './SubjectDetail'
 
 const Index = () => {
   return (
-    <div>
+    <div className='md:px-10 px-6'>
       <Practices/>
       <SubjectDetail/>
     </div>

@@ -8,17 +8,17 @@ const Profile = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="relative flex flex-col sm:flex-row gap-4 sm:gap-5 items-center justify-between sm:justify-end w-full">
-      <div className="flex items-center bg-white rounded-3xl py-2 px-3 shadow w-full sm:w-auto">
+    <div className="relative flex flex-row gap-3 sm:gap-5 items-center justify-between sm:justify-end w-full">
+      <div className="flex items-center bg-white rounded-3xl py-2.5 px-3 shadow w-full sm:w-auto">
         <input
           placeholder="Search..."
-          className="outline-none w-full sm:w-[150px] md:w-[200px] text-[14px] sm:text-[16px]"
+          className="outline-none w-full sm:w-[150px] md:w-[270px] text-[14px] sm:text-[20px]"
         />
-        <MdSearch size={22} className="text-gray-600" />
+        <MdSearch size={30} className="text-gray-600" />
       </div>
       <div
         onClick={() => setOpen(!open)}
-        className="relative cursor-pointer w-[38px] h-[38px] sm:w-[42px] sm:h-[42px] rounded-full overflow-hidden"
+        className="relative cursor-pointer w-[38px] h-[38px] sm:w-[50px] sm:h-[50px] rounded-full overflow-hidden"
       >
         <Image
           src="/img/profile.png"
@@ -29,7 +29,7 @@ const Profile = () => {
       </div>
 
       {open && (
-        <div className="absolute top-[50px] right-0 bg-white rounded-md shadow p-3 w-[250px] z-50">
+        <div className="absolute top-[52px] right-0 bg-white rounded-md shadow p-3 w-[250px] z-50">
 
           <div className="flex items-center gap-4 py-3 border-b">
             <MdOutlineManageAccounts size={22} className="text-yellow-500" />

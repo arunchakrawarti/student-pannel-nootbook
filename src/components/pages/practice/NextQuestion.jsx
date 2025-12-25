@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import { Button } from "@/components/comman/Button";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { CiCircleRemove } from "react-icons/ci";
+import Button from "@/components/comman/Button";
 
 const NextQuestion = ({ currentQuestion = 2, totalQuestions = 5 }) => {
   const progressPercentage = (currentQuestion / totalQuestions) * 100;
@@ -15,29 +15,28 @@ const NextQuestion = ({ currentQuestion = 2, totalQuestions = 5 }) => {
   ];
 
   return (
-    <div className="px-3 sm:px-6 lg:px-10 py-4">
-      {/* Top Bar */}
-      <div className="p-3 sm:p-4 bg-white rounded-md shadow">
-        <div className="flex flex-col sm:flex-row justify-between gap-2 text-xs sm:text-sm text-gray-500 mb-2">
-          <button className="text-left">&larr; Back to Topics</button>
-          <span className="text-left sm:text-right">
+    <div className=" py-4">
+      <div className="p-4 sm:p-5 md:p-6 shadow rounded-md bg-white w-full
+                      px-4 sm:px-8 md:px-20 lg:px-40 -mt-12">
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 mb-2">
+          <button className="text-gray-500 font-medium text-sm sm:text-base">
+            ← Back to Topics
+          </button>
+          <span className="text-gray-500 text-sm sm:text-base">
             Question {currentQuestion} of {totalQuestions}
           </span>
         </div>
 
-        <div className="w-full h-1.5 sm:h-2 bg-gray-200 rounded-full">
+        <div className="w-full h-2 bg-red-100 rounded-full mt-4">
           <div
-            className="h-1.5 sm:h-2 bg-orange-400 rounded-full transition-all duration-300"
+            className="h-2 bg-[var(--color-accent-orange)] rounded-full transition-all duration-300"
             style={{ width: `${progressPercentage}%` }}
           />
         </div>
       </div>
-
-      {/* Question Card */}
-      <div className="max-w-full sm:max-w-xl md:max-w-2xl mx-auto mt-4 bg-white rounded-lg shadow p-4 sm:p-6">
-        {/* Header */}
+      <div className="max-w-[910px]  mx-auto mt-8 bg-white rounded-xl shadow p-4 sm:p-6">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 mb-4">
-          <span className="px-3 py-1 text-xs sm:text-sm rounded bg-orange-500 text-white">
+          <span className="px-3 py-0.5 text-xs sm:text-sm rounded-lg  bg-orange-500 text-white">
             Easy
           </span>
 
@@ -52,21 +51,17 @@ const NextQuestion = ({ currentQuestion = 2, totalQuestions = 5 }) => {
             </div>
           </div>
         </div>
-
-        {/* Question */}
-        <h2 className="text-gray-900 text-sm sm:text-base md:text-lg font-medium mb-4 leading-relaxed">
+        <h2 className="font-inter font-normal text-[21px] tracking-[-0.45px] text-[var(--color-accent-blue)]">
           The doctrine of 'Lapse' was introduced by which Governor-General?
         </h2>
-
-        {/* Options */}
-        <div className="space-y-2 sm:space-y-3">
+        <div className="space-y-2 mt-5 sm:space-y-3">
           {options.map((option, index) => (
             <div
               key={index}
-              className="flex items-center gap-3 px-3 sm:px-4 py-2.5 sm:py-3 rounded border border-gray-200"
+              className="flex items-center gap-3 px-3 sm:px-4 py-2.5 sm:py-4 rounded-lg border-3 border-gray-200"
             >
               {option.status === "wrong" && (
-                <span className="h-2 w-2 sm:h-2.5 sm:w-2.5 rounded-full bg-red-500 flex-shrink-0" />
+                <span className="h-2 w-2 sm:h-2.5 sm:w-2.5 rounded-full bg-red-500" />
               )}
 
               <span className="text-gray-800 text-sm sm:text-base">
@@ -75,13 +70,11 @@ const NextQuestion = ({ currentQuestion = 2, totalQuestions = 5 }) => {
             </div>
           ))}
         </div>
-
-        {/* Buttons */}
         <div className="flex flex-col sm:flex-row justify-between gap-3 mt-6">
-          <Button className="bg-white border text-gray-500 w-full sm:w-auto px-8 sm:px-23 md:px-30">
+          <Button variant="danger" className="">
             Skip
           </Button>
-          <Button className="text-white w-full bg-orange-200 sm:w-auto px-8 sm:px-23 md:px-30">
+          <Button className="text-white w-full bg-orange-200">
             Submit Answer
           </Button>
         </div>

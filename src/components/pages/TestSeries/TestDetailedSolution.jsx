@@ -4,7 +4,7 @@ import SolutionSummaryBar from './SolutionSummaryBar'
 
 const TestDetailedSolution = () => {
   return (
-    <div>
+    <div className='md:px-10 px-6'>
      <SolutionSummaryBar/> 
      <AnswerReviewCard/>
      

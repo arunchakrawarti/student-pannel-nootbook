@@ -86,7 +86,7 @@ export default function MainLayout({ children, pageTitle }) {
 
      
       <div className="flex flex-1 flex-col">
-        <main className="max-w-[100vw] flex-1 overflow-y-auto py-8 md:px-10 px-6">
+        <main className="max-w-[100vw] flex-1 overflow-y-auto py-8 ">
           {children}
         </main>
       </div>

@@ -4,7 +4,7 @@ import DownloadHistory from './DownloadHistory'
 
 const DownloadSubject = () => {
   return (
-    <div>
+    <div className='md:px-10 px-6'>
       <IndianPolitySubject/>
       <DownloadHistory/>
     </div>

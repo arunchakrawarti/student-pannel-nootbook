@@ -5,7 +5,7 @@ import MockTestQuestion from './MockTestQuestion'
 
 const StartTest = () => {
   return (
-    <div>
+    <div className='md:px-10 px-6'>
       <QuestionCard />
       <MockTestQuestion />
 

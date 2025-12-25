@@ -31,12 +31,11 @@ const SideBar = ({ isSidebarOpen, setIsSidebarOpen }) => {
   return (
     <>
       <div
-        className={`fixed inset-y-0 left-0 z-30 transform bg-[var(--color-accent-blue)] transition-transform duration-300 md:relative md:translate-x-0 ${
-          isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-        } w-64 lg:w-[20.5%]`}
+        className={`fixed inset-y-0 left-0 z-30 transform bg-[var(--color-accent-blue)] transition-transform duration-300 md:relative md:translate-x-0 ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"
+          } w-64 lg:w-[20.5%]`}
       >
         <nav className="flex h-full flex-col gap-2 py-4 md:gap-7">
-          <div className="flex h-auto max-w-full gap-3 px-8 sm:mt-5 md:mt-5">
+          <div className="flex h-auto max-w-full gap-3 px-6 sm:mt-5 md:mt-5">
             <h1 className="bg-white font-bold rounded-full">
               <Image
                 src="/img/notebook.png"
@@ -53,7 +52,7 @@ const SideBar = ({ isSidebarOpen, setIsSidebarOpen }) => {
           </div>
 
           <ul className="scrollbar-hidden flex h-full w-full flex-col gap-2 overflow-y-scroll px-3">
-            <div className="flex w-full flex-col gap-2 font-inter text-[18px]">
+            <div className="flex w-full flex-col gap-2 font-inter text-[19px]">
               {navigation.map((item, index) => {
                 const { route, label, icon, children } = item;
                 return (

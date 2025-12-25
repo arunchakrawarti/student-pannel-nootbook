@@ -5,7 +5,7 @@ import WritingTips from './WritingTips'
 
 const SubmitAnswer = () => {
     return (
-        <div>
+        <div className='md:px-10 px-6'>
             <GsPaper />
             <GsAnswerWriting/>
             <WritingTips/>

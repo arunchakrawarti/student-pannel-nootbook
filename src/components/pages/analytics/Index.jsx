@@ -5,7 +5,7 @@ import WeeklyGoal from './WeeklyGoal'
 
 const Index = () => {
   return (
-    <div>
+    <div className='md:px-10 px-6'>
       <ProgressAndAnalytics/>
       <StudyTimeChart/>
       <WeeklyGoal/>

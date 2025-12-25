@@ -6,7 +6,7 @@ import AllCourses from './AllCourses'
 
 const Index = ({ type, title }) => {
   return (
-    <div  >
+    <div className='md:px-10 px-6' >
       <Marketplace/>
       <CourseMagaSale/>
       <AllCourses type={type} title={title}/>

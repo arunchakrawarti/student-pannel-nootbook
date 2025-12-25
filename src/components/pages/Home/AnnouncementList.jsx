@@ -8,7 +8,7 @@ import InfoListCard from "../../molecules/InfoListCard";
 
 const AnnouncementList = () => {
   return (
-    <div className="p-8 mt-5 bg-white rounded-2xl border border-gray-200">
+    <div className="p-8 mt-8 bg-white rounded-2xl border border-gray-200">
       <div className="flex items-center gap-3">
         <IoBookOutline size={24} className="text-[var(--color-accent-orange)]" />
 

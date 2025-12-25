@@ -5,7 +5,7 @@ import ProfileEditInformation from './ProfileEditInformation'
 
 const EditProfile = () => {
   return (
-    <div>
+    <div className='md:px-10 px-6'>
       <ProfileHeader/>
       <ProfileStatsCard/>
       <ProfileEditInformation/>

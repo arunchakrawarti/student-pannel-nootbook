@@ -6,7 +6,7 @@ import SubjectCategory from './SubjectCategory'
 
 const SubjectSlug = () => {
   return (
-    <div>
+    <div className='md:px-10 px-6'>
       <StudyMaterial/>
       <SubjectList/>
       <SubjectCategory/>

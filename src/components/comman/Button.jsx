@@ -4,7 +4,7 @@ const variantClasses = {
     "text-gray-800 hover:bg-gray-200",
   outline:
     "bg-transparent text-gray-800 border border-gray-300 hover:bg-gray-100",
-  danger: "bg-red-600 text-white hover:bg-red-700",
+  danger: "bg-white text-gray-600 border border-gray-200",
 };
 
 const sizeClasses = {

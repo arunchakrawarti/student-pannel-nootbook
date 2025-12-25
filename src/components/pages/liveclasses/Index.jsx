@@ -4,7 +4,7 @@ import UpcomingLiveClasses from './UpcomingLiveClasses'
 
 const Index = () => {
   return (
-    <div>
+    <div className='md:px-10 px-6'>
       <LiveClasses/>
       <UpcomingLiveClasses/>
     </div>

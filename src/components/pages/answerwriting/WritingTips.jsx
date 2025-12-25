@@ -14,16 +14,16 @@ const writingTipsData = {
 
 const WritingTips = ({ data = writingTipsData }) => {
   return (
-    <div className="p-4 mt-4 sm:p-5 bg-white rounded-lg shadow-md border border-gray-100 w-full ">
-      <h3 className="font-inter font-semibold text-lg sm:text-xl text-[#1E293B] mb-4">
+    <div className="p-4 mt-6 sm:p-5 bg-white rounded-2xl border border-gray-200 w-full ">
+      <h3 className="font-sans font-medium text-[17px] tracking-[-0.31px] mt-2 text-[#1E293B] mb-4">
         {data.title}
       </h3>
-      <ul className="space-y-3">
+      <ul className="space-y-1 pt-5">
         {data.tips.map((tip, index) => (
           <li key={index} className="flex items-start gap-2">
             <CiCircleCheck size={20} className='text-green-400 '/>
 
-            <p className="font-inter text-base text-[#475569] leading-relaxed">
+            <p className="font-inter text-[15px] text-[#475569] leading-relaxed">
               {tip}
             </p>
           </li>

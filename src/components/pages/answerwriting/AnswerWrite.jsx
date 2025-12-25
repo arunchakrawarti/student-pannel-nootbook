@@ -4,7 +4,7 @@ import ExamCard from './ExamCard'
 
 const AnswerWrite = () => {
   return (
-    <div>
+    <div className='md:px-10 px-6'>
       <AnswerWriting/>
       <ExamCard/>
     </div>

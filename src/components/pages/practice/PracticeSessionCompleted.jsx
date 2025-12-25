@@ -1,12 +1,12 @@
 import React from "react";
-import Card9 from "@/components/molecules/BaseCard";
+import BaseCard from "@/components/molecules/BaseCard";
 import statsData from "../../../../public/db/statsData.json";
 import { IoCheckmarkCircleOutline } from "react-icons/io5";
 import { Button } from "@/components/comman/Button";
 
 const PracticeSessionCompleted = () => {
   return (
-    <div className="w-full mt-4 px-4 sm:px-6">
+    <div className="w-full mt-4 md:px-10 px-10 sm:px-6">
       <div className="max-w-2xl mx-auto bg-white rounded-xl shadow-md p-4 sm:p-6">
 
         <div className="flex justify-center mb-3">
@@ -26,7 +26,7 @@ const PracticeSessionCompleted = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mt-5 sm:mt-6">
           {statsData.map((item) => (
-            <Card9
+            <BaseCard
               key={item.id}
               variant="stat"
               value={item.value}

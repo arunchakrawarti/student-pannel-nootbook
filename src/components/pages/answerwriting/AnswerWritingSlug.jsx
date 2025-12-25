@@ -4,7 +4,7 @@ import AnswerWritingList from './AnswerWritingList'
 
 const AnswerWritingSlug = () => {
   return (
-    <div>
+    <div className='md:px-10 px-6'>
       <AnswerWriting/>
       <AnswerWritingList/>
     </div>

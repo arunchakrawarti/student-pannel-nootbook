@@ -2,14 +2,14 @@
   {
     "id": 101,
     "iconSrc": "/img/logo.png",
-    "value": "",                       
+    "value": "",
     "label": "UPSC Answer Writing",
-    "colorClass": "bg-[#DCFCE7]",    
+    "colorClass": "bg-[#DCFCE7]",
     "imagePosition": "left",
     "reverseText": false,
     "isFullColorCard": true,
-    "iconHeight": 48, 
-    "iconWidth": 48   
+    "iconHeight": 60,
+    "iconWidth": 60
   },
   {
     "id": 102,
@@ -20,8 +20,8 @@
     "imagePosition": "left",
     "reverseText": false,
     "isFullColorCard": true,
-    "iconHeight": 48,
-    "iconWidth": 48
+    "iconHeight": 60,
+    "iconWidth": 60
   },
   {
     "id": 103,
@@ -32,8 +32,8 @@
     "imagePosition": "left",
     "reverseText": false,
     "isFullColorCard": true,
-    "iconHeight": 48,
-    "iconWidth": 48
+    "iconHeight": 60,
+    "iconWidth": 60
   },
   {
     "id": 104,
@@ -44,7 +44,7 @@
     "imagePosition": "left",
     "reverseText": false,
     "isFullColorCard": true,
-    "iconHeight": 48,
-    "iconWidth": 48
+    "iconHeight": 60,
+    "iconWidth": 60
   }
 ]

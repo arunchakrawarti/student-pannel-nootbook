@@ -1,12 +1,12 @@
 import React from "react";
 import examcard1 from "../../../../public/db/examcard1.json"
-import Card9 from "@/components/molecules/BaseCard";
+import BaseCard from "@/components/molecules/BaseCard";
 
 const ExamCategory = () => {
   return (
     <div className="grid grid-cols-1 gap-4 mt-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
       {examcard1.map((item) => (
-        <Card9
+        <BaseCard
           key={item.id}
           iconSrc={item.iconSrc}
           value={item.value}

@@ -3,7 +3,7 @@ import RecordingPlayer from './RecordingPlayer'
 
 const Index = () => {
   return (
-    <div>
+    <div className='md:px-10 px-6'>
       <RecordingPlayer/>
     </div>
   )

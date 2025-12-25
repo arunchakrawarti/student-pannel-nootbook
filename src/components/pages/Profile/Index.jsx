@@ -5,7 +5,7 @@ import ProfilePersonalInfo from './ProfilePersonalInfo'
 
 const Index = () => {
   return (
-    <div>
+    <div className='md:px-10 px-6'>
       <Profile/>
       <ProfileStatsCard/>
       <ProfilePersonalInfo/>

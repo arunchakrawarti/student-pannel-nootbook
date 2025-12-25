@@ -4,7 +4,7 @@ import TestAnalysisPage from './TestAnalysisPage'
 
 const Result = () => {
   return (
-    <div>
+    <div className='md:px-10 px-6'>
       
       <ResultSummaryCard/>
       <TestAnalysisPage/>

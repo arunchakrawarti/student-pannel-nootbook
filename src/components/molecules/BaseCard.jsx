@@ -17,27 +17,26 @@ const BaseCard = ({
   changeText,
   variant = "default",
   centerText = false,
-  valueColor = "text-gray-900",
+  valueColor = "text-gray-700",
   isActive = false,
 }) => {
   const containerClasses = isFullColorCard
-    ? `rounded-xl px-3 py-4 md:px-4 md:py-5 ${colorClass}`
-    : `rounded-2xl bg-white border border-gray-200  px-3 py-4 md:px-6 md:py-5`;
+    ? `rounded-xl px-3 py-4 md:px-10 md:py-6 ${colorClass}`
+    : `rounded-2xl bg-white border border-gray-200 px-3 py-4 md:px-6 md:py-5`;
 
   const iconWrapperClasses = isFullColorCard
-    ? "h-9 w-9 md:h-10 md:w-10 rounded-md flex items-center justify-center shrink-0"
-    : `h-9 w-9 md:h-11 md:w-11 rounded-xl flex items-center justify-center shrink-0 ${colorClass}`;
+    ? "h-9 w-9 md:h-13 md:w-13 rounded-md flex items-center justify-center shrink-0"
+    : `h-9 w-9 md:h-13 md:w-13 rounded-xl flex items-center justify-center shrink-0 ${colorClass}`;
   if (variant === "filter") {
     return (
       <div className="flex items-center gap-2 cursor-pointer whitespace-nowrap group">
-        <span className={`text-[13px] md:text-[14px] font-medium transition-colors ${
-          isActive ? "text-[#16344E] font-bold" : "text-gray-600 group-hover:text-black"
-        }`}>
+        <span className={`text-[13px] md:text-[14px] font-medium transition-colors ${isActive ? "text-[#16344E] font-bold" : "text-gray-600 group-hover:text-black"
+          }`}>
           {label}
         </span>
-        <span 
+        <span
           className="px-2 md:px-2.5 py-0.5 rounded-md text-[10px] md:text-[12px] font-bold text-white transition-all flex items-center justify-center"
-          style={{ backgroundColor: '#16344E' }} 
+          style={{ backgroundColor: '#16344E' }}
         >
           {value}
         </span>
@@ -73,7 +72,7 @@ const BaseCard = ({
       <div className={`rounded-xl px-3 py-4 md:px-5 md:py-4 text-center border h-full ${colorClass || "bg-white border-gray-200"}`}>
         {iconSrc && (
           <div className="flex justify-center mb-2">
-            <div className="h-7 w-7 md:h-8 md:w-8 flex items-center justify-center rounded-full bg-white/70">
+            <div className="h-7 w-7 md:h-8 md:w-8  flex items-center justify-center rounded-full bg-white/70">
               <Image src={iconSrc} height={16} width={16} alt={label} />
             </div>
           </div>
@@ -87,23 +86,23 @@ const BaseCard = ({
   }
   if (layout === "row") {
     return (
-      <div className={`flex items-center gap-2 md:gap-3 ${containerClasses}`}>
+      <div className={`flex items-center gap-10 md:gap-10 border border-gray-200 ${containerClasses}`}>
         {iconSrc && imagePosition === "left" && (
           <div className={iconWrapperClasses}>
             <Image src={iconSrc} height={iconHeight} width={iconWidth} alt={label} />
           </div>
         )}
-        
-        <div className={`flex-1 min-w-0 ${centerText ? "text-center" : ""}`}>
+
+        <div className={`flex-1 min-w-0 ${centerText ? "text-center " : ""}`}>
           {!reverseText ? (
             <>
-              <h1 className={`text-[16px] md:text-[28px] font-inter font-normal  tracking-[0.07px] ${valueColor}`}>{value}</h1>
-              <p className="text-[12px] md:text-[17px] text-gray-600 mt-0.5 truncate">{label}</p>
+              <h1 className={`text-[16px] md:text-[28px] font-inter font-normal tracking-[0.07px] ${valueColor}`}>{value}</h1>
+              <p className="font-inter font-semibold text-[18px] leading-8 tracking-[0.07px] mt-0.5">{label}</p>
             </>
           ) : (
             <>
               <p className="text-[12px] md:text-[16px] text-gray-600 truncate">{label}</p>
-              <h1 className={`text-[16px] md:text-[23px] font-medium truncate ${valueColor}`}>{value}</h1>
+              <h1 className={`font-inter font-normal text-2xl leading-8 tracking-[0.07px] md:text-[24px] ${valueColor}`}>{value}</h1>
             </>
           )}
         </div>

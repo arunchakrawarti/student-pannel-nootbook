@@ -4,7 +4,7 @@ import PrelimsMockTest from './PrelimsMockTest'
 
 const Index = () => {
   return (
-    <div>
+    <div className='md:px-10 px-6'>
       <TestSeries/>
       <PrelimsMockTest/>
     </div>

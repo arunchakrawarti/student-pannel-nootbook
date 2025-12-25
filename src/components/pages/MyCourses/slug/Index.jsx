@@ -5,7 +5,7 @@ import VideoLecture from './VideoLecture'
 
 const MainSlug = () => {
   return (
-    <div>
+    <div className='md:px-10 px-6'>
       <FoundationCourse/>
       <Overview/>
       <VideoLecture/>

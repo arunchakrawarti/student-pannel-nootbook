@@ -118,6 +118,8 @@
 
 
 
+
+
 "use client"
 import Image from "next/image";
 import React from "react";
@@ -146,7 +148,7 @@ const DocumentCard = ({
   downloads,
 }) => {
   const router = useRouter();                  
-  const buttonColor = "bg-orange-500";
+  const buttonColor = "bg-[var(--color-accent-orange)]";
 
  
   const handleButtonClick = () => {
@@ -165,7 +167,7 @@ const DocumentCard = ({
             variant === "pdf" ? iconBgColor : "bg-transparent"
           }`}
         >
-          <Image src={icon} width={24} height={24} alt="icon" />
+          <Image src={icon} width={53} height={24} alt="icon" />
         </div>
 
         {variant === "subject" && accuracyText && (
@@ -185,13 +187,13 @@ const DocumentCard = ({
         </span>
       )}
 
-      <h2 className="ml-2 mb-2 font-medium text-[16px] text-slate-800">
+      <h2 className="ml-2 mb-4 font-inter pt-3 font-normal text-[21px] tracking-[-0.45px] text-[var(--color-accent-blue)]">
         {title}
       </h2>
 
       {variant === "subject" && (
         <>
-          <div className="space-y-2 px-2 text-[14px] text-slate-600">
+          <div className="space-y-2 px-2 text-[16px] text-[var(--color-accent-blue)]">
             <div className="flex justify-between">
               <span>Questions:</span>
               <span className="font-medium">{questions}</span>
@@ -206,9 +208,9 @@ const DocumentCard = ({
             </div>
           </div>
 
-          <div className="h-1 mt-3">
+          <div className="h-2 mt-3 w-full rounded-full bg-red-100 overflow-hidden">
             <div
-              className={`h-1 rounded-full ${buttonColor}`}
+              className={`h-2 rounded-full ${buttonColor}`}
               style={{ width: progress }}
             />
           </div>
@@ -216,7 +218,7 @@ const DocumentCard = ({
       )}
 
       {variant === "pdf" && (
-        <div className="space-y-2 text-[14px] text-slate-600 mt-2">
+        <div className="space-y-2 text-[14px] text-[var(--color-accent-blue)] mt-2">
           <div className="flex justify-between">
             <span>Pages</span>
             <span className="font-medium">{pages}</span>
@@ -239,7 +241,7 @@ const DocumentCard = ({
      
       <Button
         onClick={handleButtonClick}
-        className={`w-full py-3 rounded-lg ${buttonColor}  gap-2 mt-4`}
+        className={`w-full py-3 rounded-lg ${buttonColor}  gap-2 font-inter tracking-[0.25px] mt-5`}
       >
         {variant === "pdf" && <IoDownload />}
         {variant === "pdf" ? "Download PDF" : "Start Practice"}

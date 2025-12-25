@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Target } from "lucide-react";
 import study from "../../../../public/db/study.json";
 import Card12 from "@/components/molecules/Card12";
-import Card8 from "@/components/molecules/Card8";
+import Card8 from "@/components/molecules/AnswerPracticeCard";
 
 
 const WeeklyGoal = () => {
@@ -18,22 +18,22 @@ const WeeklyGoal = () => {
           <h2 className="text-xl font-bold text-gray-800">Weekly Goals</h2>
         </div>
 
-      <div className="space-y-4">
-  {study.map((item) => (
-    <Card8
-      key={item.id}
-      type="practice"
-      showImageProgress={true}
-      imageProgressSrc={item.iconSrc}
-      data={{
-        title: item.label,
-        totalQuestions: item.total,
-        completed: item.value,
-        progress: item.progress
-      }}
-    />
-  ))}
-</div>
+        <div className="space-y-4">
+          {study.map((item) => (
+            <Card8
+              key={item.id}
+              type="practice"
+              showImageProgress={true}
+              imageProgressSrc={item.iconSrc}
+              data={{
+                title: item.label,
+                totalQuestions: item.total,
+                completed: item.value,
+                progress: item.progress
+              }}
+            />
+          ))}
+        </div>
       </div>
 
       {/* Recent Activity */}

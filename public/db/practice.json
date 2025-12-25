@@ -1,38 +1,38 @@
 [
   {
+    "id": 1,
     "iconSrc": "/img/Practice/pra3.png",
     "value": "2,380",
-    "label": "Total Questions",
-    "colorClass": "bg-blue-100",
+    "label": "Total Question",
+    "colorClass": "bg-[#DBEAFE]",
     "imagePosition": "right",
-    "reverseText": false,
-    "isFullColorCard": false
+    "reverseText": true 
   },
   {
+    "id": 2,
     "iconSrc": "/img/Practice/pra2.png",
     "value": "980",
     "label": "Attempted",
-    "colorClass": "bg-green-100",
+    "colorClass": "bg-[#DCFCE7]",
     "imagePosition": "right",
-    "reverseText": false,
-    "isFullColorCard": false
+    "reverseText": true
   },
   {
+    "id": 3,
     "iconSrc": "/img/Practice/pra1.png",
     "value": "75%",
     "label": "Avg Accuracy",
-    "colorClass": "bg-purple-100",
+    "colorClass": "bg-[#F3E8FF]",
     "imagePosition": "right",
-    "reverseText": false,
-    "isFullColorCard": false
+    "reverseText": true
   },
   {
+    "id": 4,
     "iconSrc": "/img/Practice/pra.png",
     "value": "42h",
     "label": "Time Spent",
-    "colorClass": "bg-red-100",
+    "colorClass": "bg-red-50",
     "imagePosition": "right",
-    "reverseText": false,
-    "isFullColorCard": false
+    "reverseText": true
   }
 ]

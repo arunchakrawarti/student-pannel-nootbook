@@ -4,7 +4,7 @@ import CourseProgressCard from '../../molecules/CourseProgressCard';
 
 const MyCourse = () => {
     return (
-        <div>
+        <div className='md:px-10 px-6'>
             <h1 className="font-inter pt-3 font-medium text-[24px] tracking-[0.07px]">
                 My Courses
             </h1>
