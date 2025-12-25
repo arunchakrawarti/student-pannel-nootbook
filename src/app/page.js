@@ -1,5 +1,5 @@
-import MainLayout from "@/components/templates/MainLayout";
 import Index from "@/components/pages/home/Index";
+import MainLayout from "@/components/templates/MainLayout";
 
 export default function Home() {
   return (

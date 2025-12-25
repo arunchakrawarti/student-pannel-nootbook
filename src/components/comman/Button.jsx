@@ -1,3 +1,4 @@
+"use client"
 const variantClasses = {
   primary: "bg-[var(--color-accent-orange)] text-white hover:opacity-90",
   secondary:
