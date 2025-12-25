@@ -4,7 +4,7 @@ import Profile from './Profile'
 import TestOverview from './TestOverview'
 import AnnouncementList from './AnnouncementList'
 
-const Mainhome = () => {
+const MainHome = () => {
     return (
         <div className='md:px-10 px-6'>
             <Profile />
@@ -15,4 +15,4 @@ const Mainhome = () => {
     )
 }
 
-export default Mainhome
+export default MainHome

@@ -1,11 +1,11 @@
-import Mainhome from "@/components/pages/home";
+import MainHome from "@/components/pages/home/index";
 import MainLayout from "@/components/templates/MainLayout";
 
 export default function Home() {
   return (
     <div>
       <MainLayout>
-        <Mainhome />
+        <MainHome />
       </MainLayout>
     </div>
   );
