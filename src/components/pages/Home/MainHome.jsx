@@ -6,7 +6,7 @@ import AnnouncementList from './AnnouncementList'
 
 const MainHome = () => {
   return (
-    <div>
+    <div className='md:px-10 px-6'>
       <Profile/>
       <DashboardStats/>
       <TestOverview/>
