@@ -1,6 +1,6 @@
 import React from 'react'
 import course from "../../../../public/db/course.json";
-import CourseProgressCard from '../../molecules/CourseProgressCard';
+import CourseProgressCard from '@/components/molecules/CourseProgressCard';
 
 const MyCourse = () => {
     return (

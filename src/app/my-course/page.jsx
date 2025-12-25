@@ -1,4 +1,4 @@
-import Mycourse from '@/components/pages/myCourses/MyCourse'
+import MyCourse from '@/components/pages/myCourses/MyCourse'
 import MainLayout from '@/components/templates/MainLayout'
 import React from 'react'
 
@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div>
       <MainLayout>
-        <Mycourse/>
+        <MyCourse/>
       </MainLayout>
     </div>
   )
