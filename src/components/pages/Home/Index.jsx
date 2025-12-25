@@ -1,6 +1,6 @@
 import React from 'react'
-import DashboardStats from './DashboardStats'
 import Profile from './Profile'
+import DashboardStats from './DashboardStats'
 import TestOverview from './TestOverview'
 import AnnouncementList from './AnnouncementList'
 
@@ -16,3 +16,4 @@ const MainHome = () => {
 }
 
 export default MainHome
+
